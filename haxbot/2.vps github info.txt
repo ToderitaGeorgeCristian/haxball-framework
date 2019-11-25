@@ -1,0 +1,58 @@
+@Wolf72 @olegmisar : hi !
+
+This is how i managed to host my room / bot on Scaleway VPS - Ubuntu 18.04 - Amsterdam :
+
+    Install chrome-headless (not chromium) - plenty tutorials on web
+    install nodejs + npm
+    create a folder for room / bot .js files
+    install npm puppeteer in the folder
+    create 2 .js files in folder
+    My examples have:
+
+    haxbot.js (for run with node.js, initialise chrome headless etc)
+    bot.js (the room itself with configurations, commands etc)
+
+haxbot.js
+
+const puppeteer = require('puppeteer');
+async function bot () {
+    const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
+    const page = await browser.newPage();
+    await page.goto('https://www.haxball.com/headless', {waitUntil: 'networkidle2'});
+    await page.addScriptTag({path: 'bot.js'});
+}
+bot();
+console.log('Bot loaded');
+
+bot.js
+
+var room = HBInit({
+	roomName: "Drtoothy VPS",
+	maxPlayers: 16,
+    token: "go get token",
+    public: true,
+    playerName: "Bot",
+    geo: {"code": "RO", "lat" : 44.4, "lon" : 26.1}
+});
+			
+room.setDefaultStadium("Big");
+room.setScoreLimit(3);
+room.setTimeLimit(3);
+room.setTeamsLock(true);
+
+    Test if all works fine with "node.js haxbot.js"
+    You will also see console output "Bot loaded"
+    Go test room on website
+    At this point, the node.js will keep running, but you cannot alt-tab the process because puppeteer runs as single thread. (info on the internet)
+    If you press Ctrl+C it will close the process and stop the room.
+
+    Workaround for process closing
+    Install npm forever
+    Always start forever with --uid syntax because there will be problems on stopping (check the web)
+
+forever start --uid "hax" haxbot.js
+forever stop hax
+
+I guess your codes are a bit better optimised and fluent.
+What other ways are you using to run the scripts ?
+@Wolf72 Maybe my step 7 will help you, but what is this "indexeddb database" you talking about ?

@@ -1,0 +1,1240 @@
+
+// Real Soccer Maps
+let RS6xMaximo =`{"name":"RS-6x Classic Maximo by IronCroos","width":1650,"height":880,"spawnDistance":770,"canBeStored":false,"bg":{"type":"grass","width":1500,"height":750,"kickOffRadius":180,"cornerRadius":0,"color":"15301C"},"vertexes":[{"x":0,"y":749,"trait":"kickOffBarrier"},{"x":0,"y":180,"trait":"kickOffBarrier"},{"x":0,"y":-180,"trait":"kickOffBarrier"},{"x":0,"y":-750,"trait":"kickOffBarrier"},{"x":1499,"y":319,"trait":"line"},{"x":1110,"y":320,"trait":"line"},{"x":1499,"y":-321,"trait":"line","curve":0},{"x":1110,"y":-321,"trait":"line","curve":0},{"x":1499,"y":190,"trait":"line"},{"x":1350,"y":190,"trait":"line","curve":0},{"x":1499,"y":-190,"trait":"line"},{"x":1350,"y":-190,"trait":"line","curve":0},{"x":1110,"y":-151,"trait":"line","curve":-130},{"x":1110,"y":149,"trait":"line","curve":-130},{"x":-1501,"y":-320,"trait":"line"},{"x":-1110,"y":-320,"trait":"line"},{"x":-1501,"y":320,"trait":"line"},{"x":-1110,"y":320,"trait":"line"},{"x":-1501,"y":-190,"trait":"line"},{"x":-1350,"y":-190,"trait":"line"},{"x":-1501,"y":190,"trait":"line","curve":0},{"x":-1350,"y":190,"trait":"line","curve":0},{"x":-1110,"y":150,"trait":"line","curve":-130},{"x":-1110,"y":-150,"trait":"line","curve":-130},{"x":1231,"y":-1,"trait":"line"},{"x":1231,"y":-9,"trait":"line"},{"x":-1229,"y":1,"trait":"line"},{"x":-1229,"y":-7,"trait":"line"},{"x":-1499,"y":718,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1464,"y":751,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1466,"y":-750,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1501,"y":-718,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1470,"y":749,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1500,"y":717,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1500,"y":-716,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1470,"y":-749,"bCoef":0,"cMask":["wall"],"trait":"line","curve":0},{"x":-1499,"y":140,"trait":"line","color":"ffffff","bCoef":1},{"x":-1573,"y":138,"trait":"line","color":"ffffff","bCoef":1},{"x":-1498,"y":-141,"trait":"line","color":"ffffff","curve":-5,"bCoef":1},{"x":-1572,"y":-143,"trait":"line","color":"ffffff","curve":-5,"bCoef":1},{"x":1500,"y":139,"trait":"line","color":"ffffff","pos":[1400,135],"bCoef":1},{"x":1574,"y":139,"trait":"line","color":"ffffff","pos":[1400,135],"bCoef":1},{"x":1499,"y":-141,"trait":"line","color":"ffffff","pos":[1400,-135],"bCoef":1},{"x":1573,"y":-141,"trait":"line","color":"ffffff","pos":[1400,-135],"bCoef":1},{"x":0,"y":-4,"trait":"line"},{"x":0,"y":4,"trait":"line"},{"x":0,"y":-4,"trait":"line"},{"x":0,"y":4,"trait":"line"},{"x":-1573,"y":138,"trait":"line","color":"ffffff","cMask":["ball"]},{"x":-1617,"y":195,"trait":"line","color":"ffffff","pos":[-1515,190],"cMask":["ball"]},{"x":-1572,"y":-143,"trait":"line","color":"ffffff","cMask":["ball"]},{"x":-1616,"y":-196,"trait":"line","color":"ffffff","pos":[-1250,-150],"cMask":["ball"]},{"x":1574,"y":139,"trait":"line","color":"ffffff","pos":[1400,135],"cMask":["ball"]},{"x":1617,"y":194,"trait":"line","color":"ffffff","pos":[1515,190],"cMask":["ball"]},{"x":1573,"y":-141,"trait":"line","color":"ffffff","pos":[1400,-135],"cMask":["ball"]},{"x":1616,"y":-196,"trait":"line","color":"ffffff","pos":[1515,-190],"cMask":["ball"]},{"x":-10,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":-10,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":10,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":10,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":180,"y":5,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":-180,"y":5,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":176,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":-160.5},{"x":-176,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":-160.5},{"x":180,"y":-20,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":-180,"y":-20,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":154},{"x":-173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":154},{"x":173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":176,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":-173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":-176,"y":36,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":1511,"y":-748,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":1545,"y":-730,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":-1501,"y":-660,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":1501,"y":-660,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":-1501,"y":660,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":1501,"y":660,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":-1150,"y":-750,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":-1501,"y":-332,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1100,"y":-750,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1501,"y":-333,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1100,"y":750,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1500,"y":330,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1100,"y":750,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1502,"y":331,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1528,"y":-179,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":1528,"y":-279,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":1533,"y":-279,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1523,"y":-279,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1533,"y":-179,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1523,"y":-179,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1527,"y":187,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":1527,"y":287,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":1532,"y":287,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1522,"y":287,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1532,"y":187,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1522,"y":187,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1526,"y":-184,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1526,"y":-284,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1508,"y":759,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":-1540,"y":737,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":-1531,"y":-284,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1521,"y":-284,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1531,"y":-184,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1521,"y":-184,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"cMask":["ball"],"trait":"line","x":1031,"y":324,"curve":0.16,"bCoef":-3.5},{"cMask":["ball"],"trait":"line","x":1096,"y":384,"curve":0.16,"bCoef":-3.5},{"cMask":["ball"],"trait":"line","x":1041,"y":-321,"bCoef":-3.5,"curve":0.16},{"cMask":["ball"],"trait":"line","x":1106,"y":-381,"bCoef":-3.5,"curve":0.16},{"cMask":["ball"],"trait":"line","x":981,"y":-46,"bCoef":-4,"curve":0.16},{"cMask":["ball"],"trait":"line","x":981,"y":44,"bCoef":-4,"curve":0.16},{"cMask":["ball"],"trait":"line","x":-981,"y":-45,"bCoef":-4,"curve":0.16},{"cMask":["ball"],"trait":"line","x":-981,"y":45,"bCoef":-4,"curve":0.16},{"cMask":["ball"],"trait":"line","x":-1096,"y":385,"bCoef":-3.5,"curve":0.16},{"cMask":["ball"],"trait":"line","x":-1031,"y":325,"bCoef":-3.5,"curve":0.16},{"cMask":["ball"],"trait":"line","x":-1106,"y":-380,"bCoef":-3.5,"curve":0.16},{"cMask":["ball"],"trait":"line","x":-1041,"y":-320,"bCoef":-3.5,"curve":0.16},{"x":-1529,"y":283,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1529,"y":183,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1534,"y":183,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1524,"y":183,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1534,"y":283,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1524,"y":283,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1546,"y":-730,"trait":"corner","color":"BEB86C","bCoef":-4.5,"cMask":["ball"]},{"x":-1512,"y":-746,"trait":"corner","color":"BEB86C","bCoef":-4.5,"cMask":["ball"]},{"x":1545,"y":732,"trait":"corner","color":"BEB86C","bCoef":-4.5,"cMask":["ball"]},{"x":1510,"y":749,"trait":"corner","color":"BEB86C","bCoef":-4.5,"cMask":["ball"]},{"trait":"line","x":-881,"y":-260,"cMask":["wall"]},{"trait":"line","x":-881,"y":-165,"cMask":["wall"]},{"trait":"line","x":-881,"y":167,"cMask":["wall"]},{"trait":"line","x":-881,"y":264,"cMask":["wall"]},{"trait":"line","x":881,"y":166,"cMask":["wall"]},{"trait":"line","x":881,"y":263,"cMask":["wall"]},{"trait":"line","x":881,"y":-261,"cMask":["wall"]},{"trait":"line","x":881,"y":-166,"cMask":["wall"]},{"cMask":["wall"],"cGroup":["all"],"x":-950,"y":320},{"cMask":["wall"],"cGroup":["all"],"x":950,"y":320},{"cMask":["wall"],"cGroup":["all"],"x":-950,"y":-320},{"cMask":["wall"],"cGroup":["all"],"x":950,"y":-320},{"cMask":["wall"],"cGroup":["all"],"x":-630,"y":-751},{"cMask":["wall"],"cGroup":["all"],"x":-630,"y":749},{"cMask":["wall"],"cGroup":["all"],"x":630,"y":-751},{"cMask":["wall"],"cGroup":["all"],"x":630,"y":749}],"segments":[{"v0":37,"v1":39,"color":"ffffff","trait":"reargoalNetleft","x":-1465},{"v0":41,"v1":43,"color":"ffffff","trait":"reargoalNetright","x":1465},{"v0":0,"v1":1,"trait":"kickOffBarrier"},{"v0":2,"v1":3,"trait":"kickOffBarrier"},{"v0":4,"v1":5,"trait":"line","y":300},{"v0":5,"v1":7,"trait":"line","x":1110},{"v0":6,"v1":7,"curve":0,"trait":"line","y":-300},{"v0":8,"v1":9,"trait":"line","y":190},{"v0":9,"v1":11,"curve":0,"trait":"line","x":1350},{"v0":10,"v1":11,"trait":"line","y":-190},{"v0":12,"v1":13,"curve":-130,"trait":"line","x":1110},{"v0":14,"v1":15,"trait":"line","y":-310},{"v0":15,"v1":17,"trait":"line","x":-1110},{"v0":16,"v1":17,"trait":"line","y":310},{"v0":18,"v1":19,"trait":"line","y":-180},{"v0":19,"v1":21,"trait":"line","x":-1350},{"v0":20,"v1":21,"curve":0,"trait":"line","y":190},{"v0":22,"v1":23,"curve":-130,"trait":"line","x":-1110},{"v0":24,"v1":25,"curve":-180,"trait":"line","x":935},{"v0":26,"v1":27,"curve":-180,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":180,"trait":"line","x":935},{"v0":26,"v1":27,"curve":180,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":-148.65295185187,"trait":"line","x":935},{"v0":26,"v1":27,"curve":90,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":-90,"trait":"line","x":935},{"v0":26,"v1":27,"curve":-90,"trait":"line","x":-935},{"v0":24,"v1":25,"trait":"line","x":935},{"v0":26,"v1":27,"trait":"line","x":-935},{"v0":28,"v1":29,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":30,"v1":31,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":32,"v1":33,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":34,"v1":35,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":36,"v1":37,"curve":5,"color":"ffffff","trait":"sidegoalNet","y":135,"bCoef":1},{"v0":38,"v1":39,"curve":-5,"color":"ffffff","trait":"sidegoalNet","y":-135,"bCoef":1},{"v0":40,"v1":41,"curve":-5,"color":"ffffff","trait":"sidegoalNet","y":135,"pos":[1400,135],"bCoef":1},{"v0":42,"v1":43,"curve":5,"color":"ffffff","trait":"sidegoalNet","y":-135,"pos":[1400,-135],"bCoef":1},{"v0":44,"v1":45,"curve":-180,"trait":"line"},{"v0":46,"v1":47,"curve":180,"trait":"line"},{"v0":44,"v1":45,"curve":-90,"trait":"line"},{"v0":46,"v1":47,"curve":90,"trait":"line"},{"v0":48,"v1":49,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":50,"v1":51,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":52,"v1":53,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":54,"v1":55,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":56,"v1":57,"curve":0,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","x":-10},{"v0":58,"v1":59,"curve":0,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","x":10},{"v0":60,"v1":61,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":5},{"v0":62,"v1":63,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":35},{"v0":64,"v1":65,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":-20},{"v0":66,"v1":67,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":-50},{"v0":63,"v1":62,"curve":-158.308949469,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"v0":67,"v1":66,"curve":147.976007629,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"v0":68,"v1":69,"curve":24.0445533724,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","x":200},{"v0":70,"v1":71,"curve":-21.4653291133,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","x":-200},{"v0":65,"v1":61,"curve":0,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","x":-180},{"v0":64,"v1":60,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","x":180},{"v0":72,"v1":73,"curve":-60,"vis":true,"color":"BEB86C","bCoef":-4.5,"cMask":["ball"],"trait":"line"},{"v0":74,"v1":75,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":-660},{"v0":76,"v1":77,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":660},{"v0":78,"v1":79,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":80,"v1":81,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":82,"v1":83,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":84,"v1":85,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":86,"v1":87,"curve":40,"vis":true,"color":"BEB86C","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":1220},{"v0":88,"v1":89,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":90,"v1":91,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":92,"v1":93,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":1220},{"v0":94,"v1":95,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":96,"v1":97,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":98,"v1":99,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":-1220},{"v0":100,"v1":101,"curve":-60,"vis":true,"color":"BEB86C","bCoef":-4.5,"cMask":["ball"],"trait":"line"},{"v0":102,"v1":103,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":104,"v1":105,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"curve":0.16,"vis":true,"color":"BEB86C","cMask":["ball"],"trait":"line","v0":106,"v1":107,"bCoef":-3.5},{"curve":0.16,"vis":true,"color":"BEB86C","cMask":["ball"],"trait":"line","v0":108,"v1":109,"bCoef":-3.5},{"curve":0.16,"vis":true,"color":"BEB86C","cMask":["ball"],"trait":"line","v0":110,"v1":111,"bCoef":-4},{"curve":0.16,"vis":true,"color":"BEB86C","cMask":["ball"],"trait":"line","v0":112,"v1":113,"bCoef":-4},{"curve":0.16,"vis":true,"color":"BEB86C","cMask":["ball"],"trait":"line","v0":114,"v1":115,"bCoef":-3.5},{"curve":0.16,"vis":true,"color":"BEB86C","cMask":["ball"],"trait":"line","v0":116,"v1":117,"bCoef":-3.5},{"v0":118,"v1":119,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":-1220},{"v0":120,"v1":121,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":122,"v1":123,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":124,"v1":125,"trait":"corner","curve":-60,"color":"BEB86C","bCoef":-4.5,"cMask":["ball"]},{"v0":126,"v1":127,"trait":"corner","curve":-60,"color":"BEB86C","bCoef":-4.5,"cMask":["ball"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":128,"v1":129,"x":-780,"cMask":["wall"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":130,"v1":131,"x":-780,"cMask":["wall"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":132,"v1":133,"x":780,"cMask":["wall"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":134,"v1":135,"x":780,"cMask":["wall"]},{"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"v0":136,"v1":137},{"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"v0":138,"v1":139},{"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"v0":140,"v1":141,"x":-630},{"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"v0":142,"v1":143,"x":630}],"goals":[{"p0":[-1511,-135],"p1":[-1511,135],"team":"red"},{"p0":[1509,134],"p1":[1509,-136],"team":"blue"}],"discs":[{"pos":[-1500,140],"trait":"goalPost","x":-1400,"y":135,"color":"FF0000"},{"pos":[-1500,-140],"trait":"goalPost","x":-1400,"color":"FF0000"},{"pos":[1500,140],"trait":"goalPost","y":135,"color":"0000FF"},{"pos":[1500,-140],"trait":"goalPost","y":-135,"color":"0000FF"},{"pos":[-1617,195],"trait":"stanchion","x":-1515,"y":190,"color":"FF0000"},{"pos":[-1616,-196],"trait":"stanchion","color":"FF0000"},{"pos":[1617,194],"trait":"stanchion","x":1515,"y":190,"color":"0000FF"},{"pos":[1616,-196],"trait":"stanchion","x":1515,"y":-190,"color":"0000FF"},{"pos":[-1499,-748],"trait":"cornerflag","x":-1400},{"pos":[-1499,751],"trait":"cornerflag","x":-1400},{"pos":[1500,-749],"trait":"cornerflag"},{"pos":[1500,749],"trait":"cornerflag"}],"planes":[{"normal":[0,1],"dist":-803,"bCoef":0,"trait":"ballArea"},{"normal":[0,-1],"dist":-805,"bCoef":0,"trait":"ballArea"},{"normal":[0,1],"dist":-840,"bCoef":0},{"normal":[0,-1],"dist":-840,"bCoef":0},{"normal":[1,0],"dist":-1617,"bCoef":0},{"normal":[-1,0],"dist":-1622,"bCoef":0.1},{"normal":[1,0],"dist":-1574,"bCoef":0,"cMask":["ball"]},{"normal":[-1,0],"dist":-1575,"bCoef":0,"cMask":["ball"]}],"traits":{"ballArea":{"vis":false,"bCoef":0,"cMask":["ball"]},"goalPost":{"radius":5,"invMass":0,"bCoef":2},"stanchion":{"radius":3,"invMass":0,"bCoef":3,"cMask":["none"]},"cornerflag":{"radius":3,"invMass":0,"bCoef":0.5,"color":"FFFF00","cGroup":[]},"reargoalNetleft":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":10,"color":"C7E6BD"},"reargoalNetright":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":-10,"color":"C7E6BD"},"sidegoalNet":{"vis":true,"bCoef":1,"cMask":["ball","red","blue"],"color":"C7E6BD"},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]},"line":{"vis":true,"cMask":[],"color":"C7E6BD"},"tunnel":{"vis":true,"cMask":["red","blue"],"color":"000000"},"advertising":{"vis":true,"cMask":["red","blue"],"color":"333333"},"teambench":{"vis":true,"cMask":[],"color":"000000"},"manager":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"333333"},"physio":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"666666"},"redsubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"E56E56"},"bluesubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"5689E5"}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.96,"acceleration":0.122,"kickingAcceleration":0.07,"kickingDamping":0.96,"kickStrength":6.15},"ballPhysics":{"radius":10,"bCoef":0.5,"invMass":1,"damping":0.99,"color":"ffffff","cMask":["all"],"cGroup":["ball"]}}`;
+let RS6xVulon =`{"name":"|#IronCroos|Real-x6|VulonViing|#Final Version","width":1800,"height":850,"spawnDistance":770,"canBeStored":false,"bg":{"type":"grass","width":1450,"height":700,"kickOffRadius":180,"cornerRadius":0,"color":"2A3B34"},"vertexes":[{"x":0,"y":700,"trait":"kickOffBarrier"},{"x":0,"y":180,"trait":"kickOffBarrier"},{"x":0,"y":-180,"trait":"kickOffBarrier"},{"x":0,"y":-700,"trait":"kickOffBarrier"},{"x":1450,"y":320,"trait":"line"},{"x":1060,"y":320,"trait":"line"},{"x":1450,"y":-320,"trait":"line","curve":0},{"x":1060,"y":-320,"trait":"line","curve":0},{"x":1450,"y":200,"trait":"line"},{"x":1302,"y":200,"trait":"line","curve":0},{"x":1450,"y":-200,"trait":"line"},{"x":1302,"y":-200,"trait":"line","curve":0},{"x":1060,"y":-150,"trait":"line","curve":-130},{"x":1060,"y":150,"trait":"line","curve":-130},{"x":-1450,"y":-319,"trait":"line"},{"x":-1060,"y":-320,"trait":"line"},{"x":-1450,"y":321,"trait":"line"},{"x":-1060,"y":320,"trait":"line"},{"x":-1450,"y":-200,"trait":"line"},{"x":-1300,"y":-200,"trait":"line"},{"x":-1450,"y":200,"trait":"line","curve":0},{"x":-1300,"y":200,"trait":"line","curve":0},{"x":-1060,"y":151,"trait":"line","curve":-130},{"x":-1060,"y":-149,"trait":"line","curve":-130},{"x":1180,"y":0,"trait":"line"},{"x":1180,"y":-8,"trait":"line"},{"x":-1180,"y":2,"trait":"line"},{"x":-1180,"y":-6,"trait":"line"},{"x":-1447,"y":135,"trait":"line","color":"ffffff","bCoef":1},{"x":-1519,"y":136,"trait":"line","color":"ffffff","bCoef":1},{"x":-1446,"y":-135,"trait":"line","color":"ffffff","curve":-5,"bCoef":1,"pos":[-1450,-135]},{"x":-1518,"y":-134,"trait":"line","color":"ffffff","curve":-5,"bCoef":1,"pos":[-1450,-135]},{"x":1450,"y":135,"trait":"line","color":"ffffff","pos":[1450,140],"bCoef":1},{"x":1522,"y":135,"trait":"line","color":"ffffff","pos":[1450,140],"bCoef":1},{"x":1448,"y":-135,"trait":"line","color":"ffffff","pos":[1400,-135],"bCoef":1},{"x":1522,"y":-135,"trait":"line","color":"ffffff","pos":[1400,-135],"bCoef":1},{"x":-1519,"y":136,"trait":"line","color":"ffffff","cMask":["ball"]},{"x":-1566,"y":196,"trait":"line","color":"ffffff","pos":[-1515,190],"cMask":["ball"]},{"x":-1518,"y":-134,"trait":"line","color":"ffffff","cMask":["ball"],"pos":[-1450,-135]},{"x":-1561,"y":-187,"trait":"line","color":"ffffff","pos":[-1250,-150],"cMask":["ball"]},{"x":1522,"y":135,"trait":"line","color":"ffffff","pos":[1450,140],"cMask":["ball"]},{"x":1568,"y":195,"trait":"line","color":"ffffff","pos":[1515,190],"cMask":["ball"]},{"x":1523,"y":-135,"trait":"line","color":"ffffff","pos":[1400,-135],"cMask":["ball"]},{"x":1567,"y":-195,"trait":"line","color":"ffffff","pos":[1515,-190],"cMask":["ball"]},{"x":-1450,"y":-615,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":1452,"y":-615,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":-1450,"y":615,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":1452,"y":615,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":-1060,"y":-699,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":-1450,"y":-330,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1060,"y":-700,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1450,"y":-330,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1060,"y":700,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1450,"y":332,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1060,"y":700,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1450,"y":330,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1478,"y":181,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":1478,"y":311,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":1477,"y":-174,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":40,"color":"576C46"},{"x":1477,"y":-304,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":40,"color":"576C46"},{"x":1483,"y":-304,"bCoef":0,"cMask":["ball"]},{"x":1483,"y":-174,"cMask":["ball"]},{"x":1477,"y":-174,"bCoef":-5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":1477,"y":-304,"bCoef":-5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":1484,"y":311,"bCoef":0,"cMask":["ball"]},{"x":1484,"y":181,"cMask":["ball"]},{"x":1478,"y":311,"bCoef":-5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":1478,"y":181,"bCoef":-5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":1055,"y":-390,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":985,"y":-325,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":-920,"y":45,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":-920,"y":-45,"color":"5e844d"},{"trait":"line","x":800,"y":-286,"color":"C7E6BD"},{"trait":"line","x":800,"y":-156,"color":"C7E6BD"},{"trait":"line","x":800,"y":272,"color":"C7E6BD"},{"trait":"line","x":800,"y":142,"color":"C7E6BD"},{"x":-1475,"y":178,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":40,"color":"576C46"},{"x":-1475,"y":308,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":40,"color":"576C46"},{"x":-1477,"y":-178,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":-1477,"y":-308,"bCoef":-6.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":-1483,"y":-308,"bCoef":0,"cMask":["ball"]},{"x":-1483,"y":-178,"cMask":["ball"]},{"x":-1475,"y":308,"bCoef":-5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":-1481,"y":308,"bCoef":0,"cMask":["ball"]},{"x":-1475,"y":178,"bCoef":-5,"cMask":["ball"],"trait":"line","curve":-40,"color":"576C46"},{"x":-1481,"y":178,"cMask":["ball"]},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":-1055,"y":390,"curve":-0.1626536365474556,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":-985,"y":325,"curve":-0.1626536365474556,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":1055,"y":390,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":985,"y":325,"color":"5e844d"},{"trait":"line","x":-800,"y":-290,"color":"C7E6BD"},{"trait":"line","x":-800,"y":-160,"color":"C7E6BD"},{"trait":"line","x":-800,"y":290,"color":"C7E6BD"},{"trait":"line","x":-800,"y":160,"color":"C7E6BD"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":920,"y":45,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":920,"y":-45,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":-1055,"y":-390,"color":"5e844d"},{"bCoef":-4,"cMask":["ball"],"trait":"line","x":-985,"y":-325,"color":"5e844d"},{"x":0.451230209926365,"y":179.45830388550837,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":-160.5},{"x":-0.38611853110747063,"y":-179.53977599853027,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":-160.5},{"x":-0.5393244948458431,"y":180.73907410528113,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":154},{"x":-0.39649115506661303,"y":-179.25903850800688,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":154},{"x":-1450,"y":131,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1450,"y":-20,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1450,"y":1,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":19,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":43,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":61,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":81,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":97,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":-5,"trait":"ballArea","cMask":["wall"]},{"x":-1450,"y":-5,"trait":"fieldArea","cMask":["wall"]},{"x":-1450,"y":-19,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1450,"y":-133,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1450,"y":-115,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":-97,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":-77,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":-55,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":-35,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":-18,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":113,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1450,"y":129,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":1450,"y":137,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1450,"y":-24,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1450,"y":-7,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":15,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":39,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":57,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":77,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":93,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":-9,"trait":"ballArea","cMask":["wall"]},{"x":1450,"y":-9,"trait":"fieldArea","cMask":["wall"]},{"x":1450,"y":-23,"bCoef":0.1,"trait":"line","color":"1A3FD6","vis":true,"cMask":["wall"]},{"x":1450,"y":-137,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1450,"y":-119,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":-101,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":-81,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":-59,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":-39,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":-22,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":109,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":1450,"y":109,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":1450,"y":124,"bCoef":0.1,"trait":"line","cMask":["wall"],"color":"1A3FD6"},{"x":-1448,"y":668,"bCoef":0,"cMask":["wall"]},{"x":-1398,"y":698,"bCoef":0,"cMask":["wall"]},{"x":-1397,"y":-696,"bCoef":0,"cMask":["wall"]},{"x":-1447,"y":-666,"bCoef":0,"cMask":["wall"]},{"x":1396,"y":699,"bCoef":0,"cMask":["wall"]},{"x":1446,"y":669,"bCoef":0,"cMask":["wall"]},{"x":1447,"y":-664,"bCoef":0,"cMask":["wall"]},{"x":1397,"y":-694,"bCoef":0,"cMask":["wall"]},{"x":1397,"y":-694,"bCoef":-4.025,"cMask":["ball"]},{"x":1447,"y":-664,"bCoef":-4.025,"cMask":["ball"]},{"x":1396,"y":699,"bCoef":-4.025,"cMask":["ball"]},{"x":1446,"y":669,"bCoef":-4.025,"cMask":["ball"]},{"x":-1398,"y":698,"bCoef":-4.025,"cMask":["ball"]},{"x":-1448,"y":668,"bCoef":-4.025,"cMask":["ball"]},{"x":-1397,"y":-696,"bCoef":-4.025,"cMask":["ball"]},{"x":-1447,"y":-666,"bCoef":-4.025,"cMask":["ball"]}],"segments":[{"v0":29,"v1":31,"color":"ffffff","trait":"reargoalNetleft","x":-1465},{"v0":33,"v1":35,"color":"ffffff","trait":"reargoalNetright","x":1465},{"v0":0,"v1":1,"trait":"kickOffBarrier"},{"v0":2,"v1":3,"trait":"kickOffBarrier"},{"v0":4,"v1":5,"trait":"line","y":300},{"v0":5,"v1":7,"trait":"line","x":1010},{"v0":6,"v1":7,"curve":0,"trait":"line","y":-300},{"v0":8,"v1":9,"trait":"line","y":200},{"v0":9,"v1":11,"curve":0,"trait":"line","x":1130},{"v0":10,"v1":11,"trait":"line","y":-200},{"v0":12,"v1":13,"curve":-130,"trait":"line","x":1010},{"v0":14,"v1":15,"trait":"line","y":-310},{"v0":15,"v1":17,"trait":"line","x":-1010},{"v0":16,"v1":17,"trait":"line","y":310},{"v0":18,"v1":19,"trait":"line","y":-180},{"v0":19,"v1":21,"trait":"line","x":-1130},{"v0":20,"v1":21,"curve":0,"trait":"line","y":190},{"v0":22,"v1":23,"curve":-130,"trait":"line","x":-1010},{"v0":24,"v1":25,"curve":-180,"trait":"line","x":1180},{"v0":26,"v1":27,"curve":-180,"trait":"line","x":-1180},{"v0":24,"v1":25,"curve":180,"trait":"line","x":1180},{"v0":26,"v1":27,"curve":180,"trait":"line","x":-1180},{"v0":24,"v1":25,"curve":-148.65295185187,"trait":"line","x":1180},{"v0":26,"v1":27,"curve":90,"trait":"line","x":-1180},{"v0":24,"v1":25,"curve":-90,"trait":"line","x":1180},{"v0":26,"v1":27,"curve":-90,"trait":"line","x":-1180},{"v0":24,"v1":25,"trait":"line","x":1180},{"v0":26,"v1":27,"trait":"line","x":-1180},{"v0":28,"v1":29,"curve":5,"color":"ffffff","trait":"sidegoalNet","y":135,"bCoef":1},{"v0":30,"v1":31,"curve":-5,"color":"ffffff","trait":"sidegoalNet","y":-135,"bCoef":1,"pos":[-1450,-135]},{"v0":32,"v1":33,"curve":-5,"color":"ffffff","trait":"sidegoalNet","y":135,"pos":[1450,140],"bCoef":1},{"v0":34,"v1":35,"curve":5,"color":"ffffff","trait":"sidegoalNet","y":-135,"pos":[1400,-135],"bCoef":1},{"v0":36,"v1":37,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":38,"v1":39,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":40,"v1":41,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":42,"v1":43,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":44,"v1":45,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":-615},{"v0":46,"v1":47,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":615},{"v0":48,"v1":49,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":50,"v1":51,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":52,"v1":53,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":54,"v1":55,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":56,"v1":57,"curve":-40,"vis":true,"color":"576C46","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":1220},{"v0":58,"v1":59,"curve":40,"vis":true,"color":"576C46","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":1220},{"v0":65,"v1":67,"vis":true,"color":"000000","cMask":["ball"],"y":180},{"v0":64,"v1":66,"vis":true,"color":"000000","cMask":["ball"],"y":310},{"v0":60,"v1":63,"vis":true,"color":"000000","cMask":["ball"],"y":-310},{"v0":61,"v1":62,"vis":true,"color":"000000","cMask":["ball"],"y":-180},{"curve":-0.1626536365474556,"vis":true,"color":"5e844d","bCoef":-4,"cMask":["ball"],"trait":"line","v0":68,"v1":69},{"curve":-0.1626536365474556,"vis":true,"color":"5e844d","bCoef":-4,"cMask":["ball"],"trait":"line","v0":70,"v1":71,"x":-920},{"curve":0,"vis":true,"color":"C7E6BD","trait":"line","v0":72,"v1":73,"x":800},{"curve":0,"vis":true,"color":"C7E6BD","trait":"line","v0":74,"v1":75,"x":800},{"v0":76,"v1":77,"curve":40,"vis":true,"color":"576C46","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":-1220},{"v0":78,"v1":79,"curve":-40,"vis":true,"color":"576C46","bCoef":-6.5,"cMask":["ball"],"trait":"line","x":-1220},{"v0":79,"v1":80,"vis":true,"bCoef":0,"cMask":["ball"],"y":-310},{"v0":78,"v1":81,"vis":true,"cMask":["ball"],"y":-180},{"v0":85,"v1":84,"vis":true,"cMask":["ball"],"y":180},{"v0":83,"v1":82,"vis":true,"cMask":["ball"],"y":310},{"curve":-0.1626536365474556,"vis":true,"color":"5e844d","bCoef":-4,"cMask":["ball"],"trait":"line","v0":86,"v1":87},{"curve":0.1626536365474556,"vis":true,"color":"5e844d","bCoef":-4,"cMask":["ball"],"trait":"line","v0":88,"v1":89},{"curve":0,"vis":true,"color":"C7E6BD","trait":"line","v0":90,"v1":91,"x":-800},{"curve":0,"vis":true,"color":"C7E6BD","trait":"line","v0":92,"v1":93,"x":-800},{"curve":-0.1626536365474556,"vis":true,"color":"5e844d","bCoef":-4,"cMask":["ball"],"trait":"line","v0":94,"v1":95,"x":920},{"curve":0.1626536365474556,"vis":true,"color":"5e844d","bCoef":-4,"cMask":["ball"],"trait":"line","v0":96,"v1":97},{"v0":99,"v1":98,"curve":-180.0309233489858,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier"},{"v0":101,"v1":100,"curve":180.42507385465825,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier"},{"v0":103,"v1":102,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":104,"v1":105,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":106,"v1":107,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":108,"v1":109,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":113,"v1":112,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":114,"v1":115,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":116,"v1":117,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":118,"v1":119,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":120,"v1":121,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":123,"v1":122,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":124,"v1":125,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":126,"v1":127,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":128,"v1":129,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":133,"v1":132,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":134,"v1":135,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":136,"v1":137,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":138,"v1":139,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":141,"v1":142,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":143,"v1":144,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":145,"v1":146,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":147,"v1":148,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":149,"v1":150,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":152,"v1":151,"bCoef":-4.025,"curve":59.99999999999999,"curveF":1.7320508075688774,"cMask":["ball"],"color":"576C46"},{"v0":153,"v1":154,"bCoef":-4.025,"curve":59.99999999999999,"curveF":1.7320508075688774,"cMask":["ball"],"color":"576C46"},{"v0":156,"v1":155,"bCoef":-4.025,"curve":75,"curveF":1.3032253728412058,"cMask":["ball"],"color":"576C46"},{"v0":157,"v1":158,"bCoef":-4.025,"curve":75,"curveF":1.3032253728412058,"cMask":["ball"],"color":"576C46"}],"goals":[{"p0":[-1460,-134],"p1":[-1460,136],"team":"red"},{"p0":[1461,137],"p1":[1461,-133],"team":"blue"}],"discs":[{"pos":[-1450,135],"trait":"goalPost","x":-1400,"y":135,"color":"FF0000","radius":5.5,"bCoef":2.5},{"pos":[-1450,-135],"trait":"goalPost","x":-1400,"color":"FF0000","radius":5.5,"bCoef":2.5},{"pos":[1450,135],"trait":"goalPost","y":135,"color":"0000FF","radius":5.5},{"pos":[1450,-135],"trait":"goalPost","y":-135,"color":"0000FF","radius":5.5,"bCoef":2.5},{"pos":[-1566,196],"trait":"stanchion","x":-1515,"y":190,"color":"FF0000"},{"pos":[-1561,-187],"trait":"stanchion","color":"FF0000"},{"pos":[1568,195],"trait":"stanchion","x":1515,"y":190,"color":"0000FF"},{"pos":[1567,-195],"trait":"stanchion","x":1515,"y":-190,"color":"0000FF"},{"pos":[-1448,-698],"trait":"cornerflag","x":-1400,"cMask":["wall"]},{"pos":[-1450,701],"trait":"cornerflag","x":-1400,"cMask":["wall"]},{"pos":[1451,-699],"trait":"cornerflag","cMask":["wall"]},{"pos":[1451,701],"trait":"cornerflag","cMask":["wall"]}],"planes":[{"normal":[0,1],"dist":-744,"bCoef":0,"trait":"ballArea"},{"normal":[0,-1],"dist":-753,"bCoef":0,"trait":"ballArea"},{"normal":[0,1],"dist":-785,"bCoef":0},{"normal":[0,-1],"dist":-808,"bCoef":0},{"normal":[1,0],"dist":-1579,"bCoef":0},{"normal":[-1,0],"dist":-1570,"bCoef":0.1},{"normal":[1,0],"dist":-1522,"bCoef":0,"cMask":["ball"]},{"normal":[-1,0],"dist":-1524,"bCoef":0,"cMask":["ball"]}],"traits":{"ballArea":{"vis":false,"bCoef":0,"cMask":["ball"]},"goalPost":{"radius":5,"invMass":0,"bCoef":2},"stanchion":{"radius":3,"invMass":0,"bCoef":3,"cMask":["none"]},"cornerflag":{"radius":3,"invMass":0,"bCoef":0.5,"color":"FFFF00","cGroup":[]},"reargoalNetleft":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":10,"color":"C7E6BD"},"reargoalNetright":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":-10,"color":"C7E6BD"},"sidegoalNet":{"vis":true,"bCoef":1,"cMask":["ball","red","blue"],"color":"C7E6BD"},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]},"line":{"vis":true,"cMask":[],"color":"C7E6BD"},"tunnel":{"vis":true,"cMask":["red","blue"],"color":"000000"},"advertising":{"vis":true,"cMask":["red","blue"],"color":"333333"},"teambench":{"vis":true,"cMask":[],"color":"000000"},"manager":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"333333"},"physio":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"666666"},"redsubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"E56E56"},"bluesubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"5689E5"}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.9625,"acceleration":0.1228,"kickingAcceleration":0.07,"kickingDamping":0.9605,"kickStrength":6.2},"ballPhysics":{"radius":8,"bCoef":0.5,"invMass":1,"damping":0.9905,"color":"EDED09","cMask":["all"],"cGroup":["ball"]}}`;
+let RS7xVulon =`{"name":"|#IronCroos|Real-x7|VulonViing|#Final Version","width":1850,"height":920,"spawnDistance":770,"canBeStored":false,"bg":{"type":"grass","width":1650,"height":800,"kickOffRadius":180,"cornerRadius":0,"color":"2A3B34"},"vertexes":[{"x":0,"y":799,"trait":"kickOffBarrier"},{"x":0,"y":180,"trait":"kickOffBarrier"},{"x":0,"y":-180,"trait":"kickOffBarrier"},{"x":0,"y":-842,"trait":"kickOffBarrier"},{"x":1651,"y":310,"trait":"line"},{"x":1250,"y":310,"trait":"line"},{"x":1650,"y":-310,"trait":"line","curve":0},{"x":1250,"y":-310,"trait":"line","curve":0},{"x":1651,"y":200,"trait":"line"},{"x":1500,"y":200,"trait":"line","curve":0},{"x":1651,"y":-200,"trait":"line"},{"x":1500,"y":-200,"trait":"line","curve":0},{"x":1250,"y":-150,"trait":"line","curve":-130},{"x":1250,"y":150,"trait":"line","curve":-130},{"x":-1649,"y":-310,"trait":"line"},{"x":-1250,"y":-310,"trait":"line"},{"x":-1649,"y":310,"trait":"line"},{"x":-1250,"y":310,"trait":"line"},{"x":-1650,"y":-215,"trait":"line"},{"x":-1480,"y":-215,"trait":"line"},{"x":-1650,"y":215,"trait":"line","curve":0},{"x":-1480,"y":215,"trait":"line","curve":0},{"x":-1250,"y":150,"trait":"line","curve":-130},{"x":-1250,"y":-150,"trait":"line","curve":-130},{"x":1390,"y":-6,"trait":"line"},{"x":1390,"y":-14,"trait":"line"},{"x":-1390,"y":1,"trait":"line"},{"x":-1390,"y":-7,"trait":"line"},{"x":-1650,"y":140,"trait":"line","color":"ffffff","bCoef":1,"curve":0,"pos":[-1650,140]},{"x":-1723,"y":139,"trait":"line","color":"ffffff","bCoef":1,"curve":0,"pos":[-1650,140]},{"x":-1648,"y":-141,"trait":"line","color":"ffffff","curve":0,"bCoef":1,"pos":[-1650,-140]},{"x":-1721,"y":-141,"trait":"line","color":"ffffff","curve":0,"bCoef":1,"pos":[-1650,-140]},{"x":1649,"y":140,"trait":"line","color":"ffffff","pos":[1652,140],"bCoef":1,"curve":0},{"x":1725,"y":142,"trait":"line","color":"ffffff","pos":[1652,140],"bCoef":1,"curve":0},{"x":1649,"y":-140,"trait":"line","color":"ffffff","pos":[1650,-140],"bCoef":1,"curve":0},{"x":1725,"y":-138,"trait":"line","color":"ffffff","pos":[1650,-140],"bCoef":1,"curve":0},{"x":-1723,"y":139,"trait":"line","color":"ffffff","cMask":["ball"],"pos":[-1650,140]},{"x":-1763,"y":195,"trait":"line","color":"ffffff","pos":[-1515,190],"cMask":["ball"]},{"x":-1721,"y":-141,"trait":"line","color":"ffffff","cMask":["ball"],"pos":[-1650,-140]},{"x":-1762,"y":-201,"trait":"line","color":"ffffff","pos":[-1250,-150],"cMask":["ball"]},{"x":1725,"y":142,"trait":"line","color":"ffffff","pos":[1652,140],"cMask":["ball"]},{"x":1767,"y":201,"trait":"line","color":"ffffff","pos":[1515,190],"cMask":["ball"]},{"x":1725,"y":-138,"trait":"line","color":"ffffff","pos":[1650,-140],"cMask":["ball"]},{"x":1767,"y":-200,"trait":"line","color":"ffffff","pos":[1515,-190],"cMask":["ball"]},{"x":-1648,"y":-715,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":1654,"y":-715,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":-1649,"y":715,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":1651,"y":715,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":-1229,"y":-801,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":-1650,"y":-351,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1230,"y":-800,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1650,"y":-337,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1220,"y":800,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1650,"y":356,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1230,"y":800,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1650,"y":340,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":0.451230209926365,"y":179.45830388550837,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"]},{"x":-0.38611853110747063,"y":-179.53977599853027,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"]},{"x":-0.5393244948458431,"y":180.73907410528113,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"]},{"x":-0.39649115506661303,"y":-179.25903850800688,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"]},{"x":-1676,"y":188,"bCoef":-7,"cMask":["ball"]},{"x":-1676,"y":318,"bCoef":-7,"cMask":["ball"]},{"x":-1674,"y":-187,"bCoef":-7,"cMask":["ball"]},{"x":-1674,"y":-317,"bCoef":-7,"cMask":["ball"]},{"x":-1680,"y":-317,"bCoef":0,"cMask":["ball"]},{"x":-1680,"y":-187,"cMask":["ball"]},{"x":-1676,"y":318,"bCoef":-5,"cMask":["ball"]},{"x":-1682,"y":318,"bCoef":0,"cMask":["ball"]},{"x":-1682,"y":188,"bCoef":-5,"cMask":["ball"]},{"x":-1676,"y":188,"cMask":["ball"]},{"x":1680,"y":181,"bCoef":-7,"cMask":["ball"]},{"x":1680,"y":311,"bCoef":-7,"cMask":["ball"]},{"x":1679,"y":-180,"bCoef":-7,"cMask":["ball"]},{"x":1679,"y":-310,"bCoef":-7,"cMask":["ball"]},{"x":1685,"y":-310,"bCoef":0,"cMask":["ball"]},{"x":1685,"y":-180,"cMask":["ball"]},{"x":1679,"y":-180,"bCoef":-5,"cMask":["ball"]},{"x":1679,"y":-310,"bCoef":-5,"cMask":["ball"]},{"x":1686,"y":311,"bCoef":0,"cMask":["ball"]},{"x":1686,"y":181,"cMask":["ball"]},{"x":1680,"y":311,"bCoef":-5,"cMask":["ball"]},{"x":1680,"y":181,"bCoef":-5,"cMask":["ball"]},{"x":-1240,"y":-385,"bCoef":-4,"cMask":["ball"]},{"x":-1170,"y":-325,"bCoef":-4,"cMask":["ball"]},{"x":-1240,"y":385,"bCoef":-4,"cMask":["ball"]},{"x":-1170,"y":325,"bCoef":-4,"cMask":["ball"]},{"x":1240,"y":385,"bCoef":-4,"cMask":["ball"]},{"x":1170,"y":325,"bCoef":-4,"cMask":["ball"]},{"x":1240,"y":-385,"bCoef":-4,"cMask":["ball"]},{"x":1170,"y":-325,"bCoef":-4,"cMask":["ball"]},{"x":-1120,"y":-46,"bCoef":-4,"cMask":["ball"]},{"x":-1120,"y":46,"bCoef":-4,"cMask":["ball"]},{"x":1120,"y":-46,"bCoef":-4,"cMask":["ball"]},{"x":1120,"y":46,"bCoef":-4,"cMask":["ball"]},{"x":-1020,"y":-290,"cMask":[],"color":"C7E6BD"},{"x":-1020,"y":-160,"cMask":[],"color":"C7E6BD"},{"x":1020,"y":-290,"cMask":[],"color":"C7E6BD"},{"x":1020,"y":-160,"cMask":[],"color":"C7E6BD"},{"x":1020,"y":290,"cMask":[],"color":"C7E6BD"},{"x":1020,"y":160,"cMask":[],"color":"C7E6BD"},{"x":-1020,"y":290,"cMask":[],"color":"C7E6BD"},{"x":-1020,"y":160,"cMask":[],"color":"C7E6BD"},{"x":-1650,"y":137,"trait":"ballArea"},{"x":-1650,"y":137,"trait":"fieldArea"},{"x":-1650,"y":137,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1650,"y":10,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1650,"y":27,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":45,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":69,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":87,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":113,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":131,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":21,"trait":"ballArea","cMask":["wall"]},{"x":-1650,"y":21,"trait":"fieldArea","cMask":["wall"]},{"x":-1650,"y":21,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1650,"y":-139,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1650,"y":-132,"bCoef":0.1,"trait":"line"},{"x":-1650,"y":-114,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":-89,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":-71,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":-47,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":-29,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":-9,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1650,"y":12,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":1651,"y":135,"trait":"ballArea"},{"x":1651,"y":135,"trait":"fieldArea"},{"x":1650,"y":135,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1650,"y":11,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1650,"y":25,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":43,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":67,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":85,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":111,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":129,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":19,"trait":"ballArea","cMask":["wall"]},{"x":1650,"y":19,"trait":"fieldArea","cMask":["wall"]},{"x":1650,"y":19,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1650,"y":-141,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1650,"y":-134,"bCoef":0.1,"trait":"line","color":"1A3FD6"},{"x":1650,"y":-116,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":-91,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":-73,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":-49,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":-31,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":-12,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1650,"y":5,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":-1648,"y":768,"bCoef":0,"cMask":["wall"]},{"x":-1598,"y":798,"bCoef":0,"cMask":["wall"]},{"x":-1598,"y":-797,"bCoef":0,"cMask":["wall"]},{"x":-1648,"y":-767,"bCoef":0,"cMask":["wall"]},{"x":1597,"y":797,"bCoef":0,"cMask":["wall"]},{"x":1647,"y":767,"bCoef":0,"cMask":["wall"]},{"x":1647,"y":-765,"bCoef":0,"cMask":["wall"]},{"x":1597,"y":-795,"bCoef":0,"cMask":["wall"]},{"x":1597,"y":-795,"bCoef":-4.025,"cMask":["ball"]},{"x":1647,"y":-765,"bCoef":-4.025,"cMask":["ball"]},{"x":1597,"y":797,"bCoef":-4.025,"cMask":["ball"]},{"x":1647,"y":767,"bCoef":-4.025,"cMask":["ball"]},{"x":-1598,"y":798,"bCoef":-4.025,"cMask":["ball"]},{"x":-1648,"y":768,"bCoef":-4.025,"cMask":["ball"]},{"x":-1598,"y":-797,"bCoef":-4.025,"cMask":["ball"]},{"x":-1648,"y":-767,"bCoef":-4.025,"cMask":["ball"]}],"segments":[{"v0":29,"v1":31,"color":"ffffff","trait":"reargoalNetleft","x":-1465},{"v0":33,"v1":35,"color":"ffffff","trait":"reargoalNetright","x":1465},{"v0":0,"v1":1,"trait":"kickOffBarrier"},{"v0":2,"v1":3,"trait":"kickOffBarrier"},{"v0":4,"v1":5,"trait":"line","y":310},{"v0":5,"v1":7,"trait":"line","x":1250},{"v0":6,"v1":7,"curve":0,"trait":"line","y":-310},{"v0":8,"v1":9,"trait":"line","y":200},{"v0":9,"v1":11,"curve":0,"trait":"line","x":1500},{"v0":10,"v1":11,"trait":"line","y":-200},{"v0":12,"v1":13,"curve":-130,"trait":"line","x":1250},{"v0":14,"v1":15,"trait":"line","y":-310},{"v0":15,"v1":17,"trait":"line","x":-1210},{"v0":16,"v1":17,"trait":"line","y":310},{"v0":18,"v1":19,"trait":"line","y":-180},{"v0":19,"v1":21,"trait":"line","x":-1320},{"v0":20,"v1":21,"curve":0,"trait":"line","y":190},{"v0":22,"v1":23,"curve":-130,"trait":"line","x":-1210},{"v0":24,"v1":25,"curve":-180,"trait":"line","x":1390},{"v0":26,"v1":27,"curve":-180,"trait":"line","x":-1390},{"v0":24,"v1":25,"curve":180,"trait":"line","x":1390},{"v0":26,"v1":27,"curve":180,"trait":"line","x":-1390},{"v0":24,"v1":25,"curve":-148.65295185187,"trait":"line","x":1390},{"v0":26,"v1":27,"curve":90,"trait":"line","x":-1390},{"v0":24,"v1":25,"curve":-90,"trait":"line","x":1390},{"v0":26,"v1":27,"curve":-90,"trait":"line","x":-1390},{"v0":24,"v1":25,"trait":"line","x":1390},{"v0":26,"v1":27,"trait":"line","x":-1390},{"v0":28,"v1":29,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":135,"bCoef":1,"pos":[-1650,140]},{"v0":30,"v1":31,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":-135,"bCoef":1,"pos":[-1650,-140]},{"v0":32,"v1":33,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":135,"pos":[1652,140],"bCoef":1},{"v0":34,"v1":35,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":-135,"pos":[1650,-140],"bCoef":1},{"v0":36,"v1":37,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":38,"v1":39,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":40,"v1":41,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":42,"v1":43,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":44,"v1":45,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":-715},{"v0":46,"v1":47,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":715},{"v0":48,"v1":49,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":50,"v1":51,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":52,"v1":53,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":54,"v1":55,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":56,"v1":57,"bCoef":0.1,"curve":-179.96907665101423,"curveF":-0.0002698571343231394,"vis":false,"cMask":["red","blue"],"cGroup":["blueKO"]},{"v0":59,"v1":58,"bCoef":0.1,"curve":-179.57492614534178,"curveF":-0.0037094861783570146,"vis":false,"cMask":["red","blue"],"cGroup":["redKO"]},{"v0":60,"v1":61,"bCoef":-7,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"576C46"},{"v0":63,"v1":62,"bCoef":-7,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"576C46"},{"v0":63,"v1":64,"bCoef":0,"cMask":["ball"]},{"v0":62,"v1":65,"cMask":["ball"]},{"v0":69,"v1":68,"cMask":["ball"]},{"v0":67,"v1":66,"cMask":["ball"]},{"v0":71,"v1":70,"bCoef":-7,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"576C46"},{"v0":72,"v1":73,"bCoef":-7,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"576C46"},{"v0":79,"v1":81,"cMask":["ball"]},{"v0":78,"v1":80,"cMask":["ball"]},{"v0":74,"v1":77,"cMask":["ball"]},{"v0":75,"v1":76,"cMask":["ball"]},{"v0":82,"v1":83,"bCoef":-4,"cMask":["ball"],"color":"576C46"},{"v0":84,"v1":85,"bCoef":-4,"cMask":["ball"],"color":"576C46"},{"v0":87,"v1":86,"bCoef":-4,"cMask":["ball"],"color":"576C46"},{"v0":88,"v1":89,"bCoef":-4,"cMask":["ball"],"color":"576C46"},{"v0":90,"v1":91,"bCoef":-4,"cMask":["ball"],"color":"576C46","x":-1120},{"v0":93,"v1":92,"bCoef":-4,"cMask":["ball"],"color":"576C46","x":1120},{"v0":94,"v1":95,"cMask":[],"color":"C7E6BD","x":-1020},{"v0":96,"v1":97,"cMask":[],"color":"C7E6BD","x":1020},{"v0":98,"v1":99,"cMask":[],"color":"C7E6BD","x":1020},{"v0":100,"v1":101,"cMask":[],"color":"C7E6BD","x":-1020},{"v0":105,"v1":104,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":106,"v1":107,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":108,"v1":109,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":110,"v1":111,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":115,"v1":114,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":116,"v1":117,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line"},{"v0":118,"v1":119,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":120,"v1":121,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":122,"v1":123,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":127,"v1":126,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":128,"v1":129,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":130,"v1":131,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":132,"v1":133,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":137,"v1":136,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":138,"v1":139,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650},{"v0":140,"v1":141,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":142,"v1":143,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":144,"v1":145,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":146,"v1":147,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":148,"v1":149,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":150,"v1":151,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":152,"v1":153,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":155,"v1":154,"bCoef":-4.025,"curve":59.99999999999999,"curveF":1.7320508075688774,"cMask":["ball"],"color":"576C46"},{"v0":156,"v1":157,"bCoef":-4.025,"curve":59.99999999999999,"curveF":1.7320508075688774,"cMask":["ball"],"color":"576C46"},{"v0":159,"v1":158,"bCoef":-4.025,"curve":75,"curveF":1.3032253728412058,"cMask":["ball"],"color":"576C46"},{"v0":160,"v1":161,"bCoef":-4.025,"curve":75,"curveF":1.3032253728412058,"cMask":["ball"],"color":"576C46"}],"goals":[{"team":"red","p0":[-1657,-143],"p1":[-1658,138]},{"team":"blue","p0":[1656,-144],"p1":[1658,139]}],"discs":[{"pos":[-1650,140],"trait":"goalPost","x":-1400,"y":135,"color":"FF0000","bCoef":1.5,"radius":5.5},{"pos":[-1650,-140],"trait":"goalPost","x":-1400,"color":"FF0000","bCoef":1.5,"radius":5.5},{"pos":[1650,140],"trait":"goalPost","y":135,"color":"0000FF","bCoef":1.5,"radius":5.5},{"pos":[1650,-140],"trait":"goalPost","y":-135,"color":"0000FF","bCoef":1.5,"radius":5.5},{"pos":[-1763,195],"trait":"stanchion","x":-1515,"y":190,"color":"FF0000"},{"pos":[-1763,-201],"trait":"stanchion","color":"FF0000"},{"pos":[1767,201],"trait":"stanchion","x":1515,"y":190,"color":"0000FF"},{"pos":[1769,-202],"trait":"stanchion","x":1515,"y":-190,"color":"0000FF"},{"pos":[-1649,-799],"trait":"cornerflag","x":-1400,"cMask":["wall"]},{"pos":[-1650,801],"trait":"cornerflag","x":-1400,"cMask":["wall"]},{"pos":[1651,-800],"trait":"cornerflag","cMask":["wall"]},{"pos":[1652,799],"trait":"cornerflag","cMask":["wall"]}],"planes":[{"normal":[0,1],"dist":-848,"bCoef":0,"trait":"ballArea"},{"normal":[0,-1],"dist":-847,"bCoef":0,"trait":"ballArea"},{"normal":[0,1],"dist":-898,"bCoef":0},{"normal":[0,-1],"dist":-876,"bCoef":0},{"normal":[1,0],"dist":-1769,"bCoef":0},{"normal":[-1,0],"dist":-1775,"bCoef":0.1},{"normal":[1,0],"dist":-1723,"bCoef":0,"cMask":["ball"]},{"normal":[-1,0],"dist":-1726,"bCoef":0,"cMask":["ball"]}],"traits":{"ballArea":{"vis":false,"bCoef":0,"cMask":["ball"]},"goalPost":{"radius":5,"invMass":0,"bCoef":2},"stanchion":{"radius":3,"invMass":0,"bCoef":3,"cMask":["none"]},"cornerflag":{"radius":3,"invMass":0,"bCoef":0.5,"color":"FFFF00","cGroup":[]},"reargoalNetleft":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":10,"color":"C7E6BD"},"reargoalNetright":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":-10,"color":"C7E6BD"},"sidegoalNet":{"vis":true,"bCoef":1,"cMask":["ball","red","blue"],"color":"C7E6BD"},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]},"line":{"vis":true,"cMask":[],"color":"C7E6BD"},"tunnel":{"vis":true,"cMask":["red","blue"],"color":"000000"},"advertising":{"vis":true,"cMask":["red","blue"],"color":"333333"},"teambench":{"vis":true,"cMask":[],"color":"000000"},"manager":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"333333"},"physio":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"666666"},"redsubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"E56E56"},"bluesubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"5689E5"}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.9625,"kickingDamping":0.9605,"acceleration":0.123,"kickingAcceleration":0.07,"kickStrength":6.21},"ballPhysics":{"radius":8,"bCoef":0.5,"invMass":1,"damping":0.9905,"color":"EDED09","cMask":["all"],"cGroup":["ball"]}}`;
+let RS5xMinimo =`{"name":"RS-5x Classic Minimo by IronCroos","width":1550,"height":800,"spawnDistance":770,"canBeStored":false,"bg":{"type":"grass","width":1400,"height":700,"kickOffRadius":180,"cornerRadius":0,"color":"15301C"},"vertexes":[{"x":0,"y":700,"trait":"kickOffBarrier"},{"x":0,"y":180,"trait":"kickOffBarrier"},{"x":0,"y":-180,"trait":"kickOffBarrier"},{"x":0,"y":-700,"trait":"kickOffBarrier"},{"x":1398,"y":320,"trait":"line"},{"x":1010,"y":320,"trait":"line"},{"x":1398,"y":-320,"trait":"line","curve":0},{"x":1010,"y":-320,"trait":"line","curve":0},{"x":1398,"y":190,"trait":"line"},{"x":1250,"y":190,"trait":"line","curve":0},{"x":1398,"y":-190,"trait":"line"},{"x":1250,"y":-190,"trait":"line","curve":0},{"x":1010,"y":-150,"trait":"line","curve":-130},{"x":1010,"y":150,"trait":"line","curve":-130},{"x":-1400,"y":-320,"trait":"line"},{"x":-1010,"y":-320,"trait":"line"},{"x":-1400,"y":320,"trait":"line"},{"x":-1010,"y":320,"trait":"line"},{"x":-1400,"y":-190,"trait":"line"},{"x":-1250,"y":-190,"trait":"line"},{"x":-1400,"y":190,"trait":"line","curve":0},{"x":-1250,"y":190,"trait":"line","curve":0},{"x":-1010,"y":150,"trait":"line","curve":-130},{"x":-1010,"y":-150,"trait":"line","curve":-130},{"x":1130,"y":0,"trait":"line"},{"x":1130,"y":-8,"trait":"line"},{"x":-1128,"y":1,"trait":"line"},{"x":-1128,"y":-7,"trait":"line"},{"x":-1400,"y":667,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1365,"y":700,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1366,"y":-699,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1401,"y":-667,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1370,"y":701,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1400,"y":669,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1399,"y":-666,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1369,"y":-699,"bCoef":0,"cMask":["wall"],"trait":"line","curve":0},{"x":-1398,"y":140,"trait":"line","color":"ffffff","bCoef":1},{"x":-1466,"y":140,"trait":"line","color":"ffffff","bCoef":1},{"x":-1397,"y":-141,"trait":"line","color":"ffffff","curve":-5,"bCoef":1},{"x":-1465,"y":-141,"trait":"line","color":"ffffff","curve":-5,"bCoef":1},{"x":1399,"y":140,"trait":"line","color":"ffffff","pos":[1400,135],"bCoef":1},{"x":1466,"y":140,"trait":"line","color":"ffffff","pos":[1400,135],"bCoef":1},{"x":1398,"y":-140,"trait":"line","color":"ffffff","pos":[1400,-135],"bCoef":1},{"x":1465,"y":-140,"trait":"line","color":"ffffff","pos":[1400,-135],"bCoef":1},{"x":0,"y":-4,"trait":"line"},{"x":0,"y":4,"trait":"line"},{"x":0,"y":-4,"trait":"line"},{"x":0,"y":4,"trait":"line"},{"x":-1466,"y":140,"trait":"line","color":"ffffff","cMask":["ball"]},{"x":-1516,"y":195,"trait":"line","color":"ffffff","pos":[-1515,190],"cMask":["ball"]},{"x":-1465,"y":-141,"trait":"line","color":"ffffff","cMask":["ball"]},{"x":-1515,"y":-196,"trait":"line","color":"ffffff","pos":[-1250,-150],"cMask":["ball"]},{"x":1466,"y":140,"trait":"line","color":"ffffff","pos":[1400,135],"cMask":["ball"]},{"x":1516,"y":195,"trait":"line","color":"ffffff","pos":[1515,190],"cMask":["ball"]},{"x":1465,"y":-140,"trait":"line","color":"ffffff","pos":[1400,-135],"cMask":["ball"]},{"x":1515,"y":-195,"trait":"line","color":"ffffff","pos":[1515,-190],"cMask":["ball"]},{"x":-10,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":-10,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":10,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":10,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":180,"y":5,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":-180,"y":5,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":176,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":-160.5},{"x":-176,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":-160.5},{"x":180,"y":-20,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":-180,"y":-20,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"x":173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":154},{"x":-173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","curve":154},{"x":173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":176,"y":35,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","curve":0},{"x":-173,"y":-50,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":-176,"y":36,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","curve":0},{"x":1410,"y":-698,"bCoef":-4,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":1444,"y":-680,"bCoef":-4,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":-1400,"y":-620,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":1400,"y":-620,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5e844d"},{"x":-1400,"y":620,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":1400,"y":620,"cMask":["wall"],"cGroup":["all"],"color":"5e844d"},{"x":-1050,"y":-700,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":-1400,"y":-332,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1050,"y":-700,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1400,"y":-332,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1050,"y":700,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":-1400,"y":322,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":-90},{"x":1050,"y":700,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1401,"y":332,"cMask":["wall"],"cGroup":["all"],"color":"5e844d","curve":90},{"x":1425,"y":-175,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":1425,"y":-275,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":1430,"y":-275,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1420,"y":-275,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1430,"y":-175,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1420,"y":-175,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1422,"y":177,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":1422,"y":277,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":1427,"y":277,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1417,"y":277,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1427,"y":177,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1417,"y":177,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1423,"y":-165,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1423,"y":-265,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1409,"y":708,"bCoef":-4,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":-1441,"y":686,"bCoef":-4,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":-1428,"y":-265,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1418,"y":-265,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1428,"y":-165,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1418,"y":-165,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"cMask":["wall"],"cGroup":["all"],"x":550,"y":700},{"x":-1425,"y":268,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1425,"y":168,"bCoef":-5.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1430,"y":168,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1420,"y":168,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1430,"y":268,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1420,"y":268,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1446,"y":-679,"trait":"corner","color":"BEB86C","bCoef":-4,"cMask":["ball"]},{"x":-1412,"y":-695,"trait":"corner","color":"BEB86C","bCoef":-4,"cMask":["ball"]},{"x":1445,"y":684,"trait":"corner","color":"BEB86C","bCoef":-4,"cMask":["ball"]},{"x":1410,"y":701,"trait":"corner","color":"BEB86C","bCoef":-4,"cMask":["ball"]},{"trait":"line","x":-780,"y":-260,"cMask":["wall"]},{"trait":"line","x":-780,"y":-165,"cMask":["wall"]},{"trait":"line","x":-780,"y":167,"cMask":["wall"]},{"trait":"line","x":-780,"y":264,"cMask":["wall"]},{"trait":"line","x":780,"y":167,"cMask":["wall"]},{"trait":"line","x":780,"y":264,"cMask":["wall"]},{"trait":"line","x":780,"y":-260,"cMask":["wall"]},{"trait":"line","x":780,"y":-165,"cMask":["wall"]}],"segments":[{"v0":37,"v1":39,"color":"ffffff","trait":"reargoalNetleft","x":-1465},{"v0":41,"v1":43,"color":"ffffff","trait":"reargoalNetright","x":1465},{"v0":0,"v1":1,"trait":"kickOffBarrier"},{"v0":2,"v1":3,"trait":"kickOffBarrier"},{"v0":4,"v1":5,"trait":"line","y":300},{"v0":5,"v1":7,"trait":"line","x":1010},{"v0":6,"v1":7,"curve":0,"trait":"line","y":-300},{"v0":8,"v1":9,"trait":"line","y":190},{"v0":9,"v1":11,"curve":0,"trait":"line","x":1130},{"v0":10,"v1":11,"trait":"line","y":-190},{"v0":12,"v1":13,"curve":-130,"trait":"line","x":1010},{"v0":14,"v1":15,"trait":"line","y":-310},{"v0":15,"v1":17,"trait":"line","x":-1010},{"v0":16,"v1":17,"trait":"line","y":310},{"v0":18,"v1":19,"trait":"line","y":-180},{"v0":19,"v1":21,"trait":"line","x":-1130},{"v0":20,"v1":21,"curve":0,"trait":"line","y":190},{"v0":22,"v1":23,"curve":-130,"trait":"line","x":-1010},{"v0":24,"v1":25,"curve":-180,"trait":"line","x":935},{"v0":26,"v1":27,"curve":-180,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":180,"trait":"line","x":935},{"v0":26,"v1":27,"curve":180,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":-148.65295185187,"trait":"line","x":935},{"v0":26,"v1":27,"curve":90,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":-90,"trait":"line","x":935},{"v0":26,"v1":27,"curve":-90,"trait":"line","x":-935},{"v0":24,"v1":25,"trait":"line","x":935},{"v0":26,"v1":27,"trait":"line","x":-935},{"v0":28,"v1":29,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":30,"v1":31,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":32,"v1":33,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":34,"v1":35,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":36,"v1":37,"curve":5,"color":"ffffff","trait":"sidegoalNet","y":135,"bCoef":1},{"v0":38,"v1":39,"curve":-5,"color":"ffffff","trait":"sidegoalNet","y":-135,"bCoef":1},{"v0":40,"v1":41,"curve":-5,"color":"ffffff","trait":"sidegoalNet","y":135,"pos":[1400,135],"bCoef":1},{"v0":42,"v1":43,"curve":5,"color":"ffffff","trait":"sidegoalNet","y":-135,"pos":[1400,-135],"bCoef":1},{"v0":44,"v1":45,"curve":-180,"trait":"line"},{"v0":46,"v1":47,"curve":180,"trait":"line"},{"v0":44,"v1":45,"curve":-90,"trait":"line"},{"v0":46,"v1":47,"curve":90,"trait":"line"},{"v0":48,"v1":49,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":50,"v1":51,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":52,"v1":53,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":54,"v1":55,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":56,"v1":57,"curve":0,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","x":-10},{"v0":58,"v1":59,"curve":0,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","x":10},{"v0":60,"v1":61,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":5},{"v0":62,"v1":63,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":35},{"v0":64,"v1":65,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":-20},{"v0":66,"v1":67,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","y":-50},{"v0":63,"v1":62,"curve":-158.308949469,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"v0":67,"v1":66,"curve":147.976007629,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier"},{"v0":68,"v1":69,"curve":24.0445533724,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO"],"trait":"kickOffBarrier","x":200},{"v0":70,"v1":71,"curve":-21.4653291133,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"],"trait":"kickOffBarrier","x":-200},{"v0":65,"v1":61,"curve":0,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","x":-180},{"v0":64,"v1":60,"vis":false,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["redKO","blueKO"],"trait":"kickOffBarrier","x":180},{"v0":72,"v1":73,"curve":-60,"vis":true,"color":"BEB86C","bCoef":-4,"cMask":["ball"],"trait":"line"},{"v0":74,"v1":75,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":-620},{"v0":76,"v1":77,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"],"y":620},{"v0":78,"v1":79,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":80,"v1":81,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":82,"v1":83,"curve":-90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":84,"v1":85,"curve":90,"vis":true,"color":"5e844d","cMask":["wall"],"cGroup":["all"]},{"v0":86,"v1":87,"curve":40,"vis":true,"color":"BEB86C","bCoef":-5.5,"cMask":["ball"],"trait":"line","x":1220},{"v0":88,"v1":89,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":90,"v1":91,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":92,"v1":93,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-5.5,"cMask":["ball"],"trait":"line","x":1220},{"v0":94,"v1":95,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":96,"v1":97,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":98,"v1":99,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-5.5,"cMask":["ball"],"trait":"line","x":-1220},{"v0":100,"v1":101,"curve":-60,"vis":true,"color":"BEB86C","bCoef":-4,"cMask":["ball"],"trait":"line"},{"v0":102,"v1":103,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":104,"v1":105,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":107,"v1":108,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-5.5,"cMask":["ball"],"trait":"line","x":-1220},{"v0":109,"v1":110,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":111,"v1":112,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":113,"v1":114,"trait":"corner","curve":-60,"color":"BEB86C","bCoef":-4,"cMask":["ball"]},{"v0":115,"v1":116,"trait":"corner","curve":-60,"color":"BEB86C","bCoef":-4,"cMask":["ball"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":117,"v1":118,"x":-780,"cMask":["wall"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":119,"v1":120,"x":-780,"cMask":["wall"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":121,"v1":122,"x":780,"cMask":["wall"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":123,"v1":124,"x":780,"cMask":["wall"]}],"goals":[{"p0":[-1410,-135],"p1":[-1410,135],"team":"red"},{"p0":[1410,135],"p1":[1410,-135],"team":"blue"}],"discs":[{"pos":[-1401,140],"trait":"goalPost","x":-1400,"y":135,"color":"FF0000"},{"pos":[-1400,-141],"trait":"goalPost","x":-1400,"color":"FF0000"},{"pos":[1400,140],"trait":"goalPost","y":135,"color":"0000FF"},{"pos":[1400,-140],"trait":"goalPost","y":-135,"color":"0000FF"},{"pos":[-1516,195],"trait":"stanchion","x":-1515,"y":190,"color":"FF0000"},{"pos":[-1515,-196],"trait":"stanchion","color":"FF0000"},{"pos":[1516,195],"trait":"stanchion","x":1515,"y":190,"color":"0000FF"},{"pos":[1515,-195],"trait":"stanchion","x":1515,"y":-190,"color":"0000FF"},{"pos":[-1399,-697],"trait":"cornerflag","x":-1400},{"pos":[-1400,700],"trait":"cornerflag","x":-1400},{"pos":[1399,-699],"trait":"cornerflag"},{"pos":[1400,701],"trait":"cornerflag"}],"planes":[{"normal":[0,1],"dist":-744,"bCoef":0,"trait":"ballArea"},{"normal":[0,-1],"dist":-747,"bCoef":0,"trait":"ballArea"},{"normal":[0,1],"dist":-785,"bCoef":0},{"normal":[0,-1],"dist":-785,"bCoef":0},{"normal":[1,0],"dist":-1538,"bCoef":0},{"normal":[-1,0],"dist":-1594,"bCoef":0.1},{"normal":[1,0],"dist":-1466,"bCoef":0,"cMask":["ball"]},{"normal":[-1,0],"dist":-1468,"bCoef":0,"cMask":["ball"]}],"traits":{"ballArea":{"vis":false,"bCoef":0,"cMask":["ball"]},"goalPost":{"radius":5,"invMass":0,"bCoef":2},"stanchion":{"radius":3,"invMass":0,"bCoef":3,"cMask":["none"]},"cornerflag":{"radius":3,"invMass":0,"bCoef":0.5,"color":"FFFF00","cGroup":[]},"reargoalNetleft":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":10,"color":"C7E6BD"},"reargoalNetright":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":-10,"color":"C7E6BD"},"sidegoalNet":{"vis":true,"bCoef":1,"cMask":["ball","red","blue"],"color":"C7E6BD"},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]},"line":{"vis":true,"cMask":[],"color":"C7E6BD"},"tunnel":{"vis":true,"cMask":["red","blue"],"color":"000000"},"advertising":{"vis":true,"cMask":["red","blue"],"color":"333333"},"teambench":{"vis":true,"cMask":[],"color":"000000"},"manager":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"333333"},"physio":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"666666"},"redsubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"E56E56"},"bluesubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"5689E5"}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.96,"acceleration":0.124,"kickingAcceleration":0.07,"kickingDamping":0.96,"kickStrength":6.1},"ballPhysics":{"radius":10,"bCoef":0.5,"invMass":1,"damping":0.99,"color":"ffffff","cMask":["all"],"cGroup":["ball"]}}`;
+let RSGrandev87 =`{"name":"Grande Real v8.7 by IronCroos","width":2000,"height":1120,"spawnDistance":770,"canBeStored":false,"bg":{"type":"grass","width":1800,"height":1000,"kickOffRadius":180,"cornerRadius":0,"color":"1B1C02  "},"vertexes":[{"x":0,"y":1000,"trait":"kickOffBarrier","cMask":["wall"]},{"x":0,"y":180,"trait":"kickOffBarrier"},{"x":0,"y":-180,"trait":"kickOffBarrier","curve":0},{"x":0,"y":-1000,"trait":"kickOffBarrier","curve":0,"cMask":["wall"]},{"x":1800,"y":-310,"trait":"line","curve":0},{"x":-1600,"y":0,"trait":"line"},{"x":-1600,"y":-8,"trait":"line"},{"x":-1799,"y":140,"trait":"line","color":"ffffff","bCoef":1,"curve":0,"pos":[-1650,140]},{"x":-1872,"y":139,"trait":"line","color":"ffffff","bCoef":1,"curve":0,"pos":[-1650,140]},{"x":-1797,"y":-141,"trait":"line","color":"ffffff","curve":0,"bCoef":1,"pos":[-1650,-140]},{"x":-1870,"y":-141,"trait":"line","color":"ffffff","curve":0,"bCoef":1,"pos":[-1650,-140]},{"x":1799,"y":140,"trait":"line","color":"000000","pos":[1652,140],"bCoef":1,"curve":0,"cMask":["wall"]},{"x":1875,"y":142,"trait":"line","color":"ffffff","pos":[1652,140],"bCoef":1,"curve":0},{"x":1799,"y":-140,"trait":"line","color":"ffffff","pos":[1650,-140],"bCoef":1,"curve":0},{"x":1875,"y":-138,"trait":"line","color":"ffffff","pos":[1650,-140],"bCoef":1,"curve":0},{"x":-1872,"y":139,"trait":"line","color":"ffffff","cMask":["ball"],"pos":[-1650,140]},{"x":-1932,"y":204,"trait":"line","color":"ffffff","pos":[-1515,190],"cMask":["ball"]},{"x":-1870,"y":-141,"trait":"line","color":"ffffff","cMask":["ball"],"pos":[-1650,-140]},{"x":-1917,"y":-220,"trait":"line","color":"ffffff","pos":[-1250,-150],"cMask":["ball"]},{"x":1875,"y":142,"trait":"line","color":"ffffff","pos":[1652,140],"cMask":["ball"]},{"x":1917,"y":201,"trait":"line","color":"ffffff","pos":[1515,190],"cMask":["ball"]},{"x":1875,"y":-138,"trait":"line","color":"ffffff","pos":[1650,-140],"cMask":["ball"]},{"x":1917,"y":-200,"trait":"line","color":"ffffff","pos":[1515,-190],"cMask":["ball"]},{"x":-1800,"y":-910,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5E844D"},{"x":1804,"y":-910,"cMask":["wall"],"cGroup":["all"],"vis":true,"color":"5E844D"},{"x":-1798,"y":910,"cMask":["wall"],"cGroup":["all"],"color":"5E844D"},{"x":1800,"y":910,"cMask":["wall"],"cGroup":["all"],"color":"5E844D"},{"x":-1400,"y":-1000,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":90},{"x":-1799,"y":-500,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":90},{"x":1350,"y":-1000,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":-90},{"x":1799,"y":-500,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":-90},{"x":-1400,"y":1000,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":-90},{"x":-1800,"y":500,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":-90},{"x":1400,"y":998,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":90},{"x":1800,"y":500,"cMask":["wall"],"cGroup":["all"],"color":"5E844D","curve":90},{"x":0.451230209926365,"y":179.45830388550837,"bCoef":0.1,"cMask":["red","blue"],"cGroup":["blueKO"]},{"x":-0.38611853110747063,"y":-179.53977599853027,"bCoef":0.1,"cMask":["wall"],"cGroup":["blueKO"],"curve":180},{"x":0,"y":180.73907410528113,"bCoef":0.1,"cMask":["wall"],"cGroup":["redKO"],"curve":180},{"x":0,"y":-179.25903850800688,"bCoef":0.1,"cMask":["wall"],"cGroup":["redKO"]},{"x":-1825,"y":188,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":-1825,"y":318,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":-1823,"y":-187,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":-1823,"y":-317,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":-1829,"y":-317,"bCoef":0,"cMask":["ball"]},{"x":-1829,"y":-187,"cMask":["ball"]},{"x":-1825,"y":318,"bCoef":-5,"cMask":["ball"]},{"x":-1831,"y":318,"bCoef":0,"cMask":["ball"]},{"x":-1831,"y":188,"bCoef":-5,"cMask":["ball"]},{"x":-1825,"y":188,"cMask":["ball"]},{"x":1833,"y":181,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":1833,"y":311,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":1829,"y":-180,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":1829,"y":-310,"bCoef":-8,"cMask":["ball"],"color":"5E844D"},{"x":1835,"y":-310,"bCoef":0,"cMask":["ball"]},{"x":1835,"y":-180,"cMask":["ball"]},{"x":1829,"y":-180,"bCoef":-5,"cMask":["ball"]},{"x":1829,"y":-310,"bCoef":-5,"cMask":["ball"]},{"x":1839,"y":311,"bCoef":0,"cMask":["ball"]},{"x":1839,"y":181,"cMask":["ball"]},{"x":1833,"y":311,"bCoef":-5,"cMask":["ball"]},{"x":1833,"y":181,"bCoef":-5,"cMask":["ball"]},{"x":-1315,"y":-320,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":-1375,"y":-375,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":-1375,"y":375,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":-1315,"y":320,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":1375,"y":375,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":1315,"y":320,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":1375,"y":-375,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":1315,"y":-320,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":-1270,"y":-42,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":-1270,"y":42,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":1270,"y":-42,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":1270,"y":42,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"x":-1074,"y":-288,"cMask":[],"color":"C7E6BD"},{"x":-1074,"y":-158,"cMask":[],"color":"C7E6BD"},{"x":1170,"y":-290,"cMask":[],"color":"C7E6BD"},{"x":1170,"y":-160,"cMask":[],"color":"C7E6BD"},{"x":1170,"y":290,"cMask":[],"color":"C7E6BD"},{"x":1170,"y":160,"cMask":[],"color":"C7E6BD"},{"x":-1074,"y":292,"cMask":[],"color":"C7E6BD"},{"x":-1074,"y":162,"cMask":[],"color":"C7E6BD"},{"x":-1799,"y":137,"trait":"ballArea"},{"x":-1799,"y":137,"trait":"fieldArea"},{"x":-1800,"y":137,"bCoef":0.1,"trait":"line","color":"000000","vis":true,"cMask":["wall"]},{"x":-1799,"y":10,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1799,"y":27,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":45,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":69,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":87,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":113,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":131,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":21,"trait":"ballArea","cMask":["wall"]},{"x":-1799,"y":21,"trait":"fieldArea","cMask":["wall"]},{"x":-1799,"y":21,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1800,"y":-139,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":-1799,"y":-132,"bCoef":0.1,"trait":"line"},{"x":-1799,"y":-114,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":-89,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":-71,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":-47,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":-29,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":-9,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":-1799,"y":12,"bCoef":0.1,"trait":"line","cMask":["wall"]},{"x":1801,"y":135,"trait":"ballArea"},{"x":1801,"y":135,"trait":"fieldArea"},{"x":1800,"y":135,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1800,"y":11,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1800,"y":25,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":43,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":67,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":85,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":111,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":129,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":19,"trait":"ballArea","cMask":["wall"]},{"x":1800,"y":19,"trait":"fieldArea","cMask":["wall"]},{"x":1800,"y":19,"bCoef":0.1,"trait":"line","color":"FFFFFF","vis":true,"cMask":["wall"]},{"x":1800,"y":-141,"bCoef":0.1,"trait":"line","color":"000000","vis":true,"cMask":["wall"]},{"x":1800,"y":-134,"bCoef":0.1,"trait":"line","color":"1A3FD6"},{"x":1800,"y":-116,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":-91,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":-73,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":-49,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":-31,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":-12,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"x":1800,"y":5,"bCoef":0.1,"trait":"line","color":"1A3FD6","cMask":["wall"]},{"trait":"line","x":-1800,"y":1000,"color":"000000","cMask":["wall"]},{"trait":"line","x":-1800,"y":-480,"curve":180,"color":"C7E6BD"},{"trait":"line","x":-1799,"y":480,"curve":180,"color":"C7E6BD"},{"trait":"line","x":1798,"y":480,"curve":180,"color":"C7E6BD"},{"trait":"line","x":1800,"y":-480,"curve":180,"color":"C7E6BD"},{"x":1600,"y":0,"trait":"line"},{"x":1600,"y":-8,"trait":"line"},{"bCoef":0,"cMask":["wall"],"x":1800,"y":-490},{"bCoef":0,"cMask":["wall"],"x":-1800,"y":-490},{"bCoef":0,"cMask":["wall"],"x":1800,"y":490},{"bCoef":0,"cMask":["wall"],"x":-1800,"y":490},{"bCoef":0,"cMask":["wall"],"x":800,"y":-1003},{"bCoef":0,"cMask":["wall"],"x":800,"y":1001},{"bCoef":0,"cMask":["wall"],"x":-800,"y":-1003},{"bCoef":0,"cMask":["wall"],"x":-800,"y":1001},{"x":-1798,"y":968,"bCoef":0,"cMask":["wall"]},{"x":-1748,"y":998,"bCoef":0,"cMask":["wall"]},{"x":-1749,"y":-997,"bCoef":0,"cMask":["wall"]},{"x":-1799,"y":-967,"bCoef":0,"cMask":["wall"]},{"x":1746,"y":999,"bCoef":0,"cMask":["wall"]},{"x":1799,"y":969,"bCoef":0,"cMask":["wall"]},{"x":1797,"y":-965,"bCoef":0,"cMask":["wall"]},{"x":1747,"y":-995,"bCoef":0,"cMask":["wall"]},{"x":1746,"y":-999,"bCoef":-4.525,"cMask":["ball"]},{"x":1800,"y":-966,"bCoef":-4.525,"cMask":["ball"]},{"x":1747,"y":999,"bCoef":-4.525,"cMask":["ball"]},{"x":1799,"y":971,"bCoef":-4.525,"cMask":["ball"]},{"x":-1748,"y":998,"bCoef":-4.525,"cMask":["ball"]},{"x":-1798,"y":968,"bCoef":-4.525,"cMask":["ball"]},{"x":-1749,"y":-997,"bCoef":-4.525,"cMask":["ball"]},{"x":-1799,"y":-967,"bCoef":-4.525,"cMask":["ball"]}],"segments":[{"v0":8,"v1":10,"color":"ffffff","trait":"reargoalNetleft","x":-1465},{"v0":12,"v1":14,"color":"ffffff","trait":"reargoalNetright","x":1465},{"v0":0,"v1":1,"trait":"kickOffBarrier"},{"v0":2,"v1":3,"trait":"kickOffBarrier","curve":0},{"v0":5,"v1":6,"curve":-180,"trait":"line","x":-1600},{"v0":5,"v1":6,"curve":180,"trait":"line","x":-1600},{"v0":5,"v1":6,"curve":90,"trait":"line","x":-1600},{"v0":5,"v1":6,"curve":-90,"trait":"line","x":-1600},{"v0":5,"v1":6,"trait":"line","x":-1600},{"v0":7,"v1":8,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":135,"bCoef":1,"pos":[-1650,140]},{"v0":9,"v1":10,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":-135,"bCoef":1,"pos":[-1650,-140]},{"v0":11,"v1":12,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":135,"pos":[1652,140],"bCoef":1},{"v0":13,"v1":14,"curve":0,"color":"ffffff","trait":"sidegoalNet","y":-135,"pos":[1650,-140],"bCoef":1},{"v0":15,"v1":16,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":17,"v1":18,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":19,"v1":20,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":21,"v1":22,"color":"ffffff","trait":"line","cMask":["ball"]},{"v0":23,"v1":24,"vis":true,"color":"5E844D","cMask":["wall"],"cGroup":["all"],"y":-910},{"v0":25,"v1":26,"vis":true,"color":"5E844D","cMask":["wall"],"cGroup":["all"],"y":910},{"v0":27,"v1":28,"curve":90,"vis":true,"color":"5E844D","cMask":["wall"],"cGroup":["all"]},{"v0":29,"v1":30,"curve":-90,"vis":true,"color":"5E844D","cMask":["wall"],"cGroup":["all"]},{"v0":31,"v1":32,"curve":-90,"vis":true,"color":"5E844D","cMask":["wall"],"cGroup":["all"]},{"v0":33,"v1":34,"curve":90,"vis":true,"color":"5E844D","cMask":["wall"],"cGroup":["all"]},{"v0":35,"v1":36,"bCoef":0.1,"curve":-179.96907665101423,"curveF":-0.0002698571343231394,"vis":false,"cMask":["red","blue"],"cGroup":["blueKO"]},{"v0":38,"v1":37,"bCoef":0.1,"curve":-179.57492614534178,"curveF":-0.0037094861783570146,"vis":false,"cMask":["red","blue"],"cGroup":["redKO"]},{"v0":39,"v1":40,"bCoef":-8,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"5E844D"},{"v0":42,"v1":41,"bCoef":-8,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"5E844D"},{"v0":42,"v1":43,"bCoef":0,"cMask":["ball"]},{"v0":41,"v1":44,"cMask":["ball"]},{"v0":48,"v1":47,"cMask":["ball"]},{"v0":46,"v1":45,"cMask":["ball"]},{"v0":50,"v1":49,"bCoef":-8,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"5E844D"},{"v0":51,"v1":52,"bCoef":-8,"curve":40,"curveF":2.7474774194546225,"cMask":["ball"],"color":"5E844D"},{"v0":58,"v1":60,"cMask":["ball"]},{"v0":57,"v1":59,"cMask":["ball"]},{"v0":53,"v1":56,"cMask":["ball"]},{"v0":54,"v1":55,"cMask":["ball"]},{"v0":61,"v1":62,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"v0":63,"v1":64,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"v0":66,"v1":65,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"v0":67,"v1":68,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A"},{"v0":69,"v1":70,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A","x":-1270},{"v0":72,"v1":71,"bCoef":-5.5,"cMask":["ball"],"color":"332F1A","x":1120},{"v0":73,"v1":74,"cMask":[],"color":"C7E6BD","x":-1020},{"v0":75,"v1":76,"cMask":[],"color":"C7E6BD","x":1020},{"v0":77,"v1":78,"cMask":[],"color":"C7E6BD","x":1020},{"v0":79,"v1":80,"cMask":[],"color":"C7E6BD","x":-1020},{"v0":84,"v1":83,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":85,"v1":86,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":87,"v1":88,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":89,"v1":90,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":94,"v1":93,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":-550,"cMask":["wall"]},{"v0":95,"v1":96,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line"},{"v0":97,"v1":98,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":99,"v1":100,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":101,"v1":102,"curve":0,"vis":true,"color":"CF0000","bCoef":0.1,"trait":"line","cMask":["wall"]},{"v0":106,"v1":105,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":107,"v1":108,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":109,"v1":110,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":111,"v1":112,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":116,"v1":115,"curve":0,"vis":true,"color":"FFFFFF","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":117,"v1":118,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650},{"v0":119,"v1":120,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":121,"v1":122,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"v0":123,"v1":124,"curve":0,"vis":true,"color":"1A3FD6","bCoef":0.1,"trait":"line","x":1650,"cMask":["wall"]},{"vis":true,"color":"C7E6BD","trait":"line","v0":126,"v1":127,"curve":180},{"vis":true,"color":"C7E6BD","trait":"line","v0":128,"v1":129,"curve":180},{"v0":130,"v1":131,"curve":-180,"trait":"line","x":1600},{"v0":130,"v1":131,"curve":180,"trait":"line","x":1600},{"v0":130,"v1":131,"curve":90,"trait":"line","x":1600},{"v0":130,"v1":131,"curve":-90,"trait":"line","x":1600},{"v0":130,"v1":131,"trait":"line","x":1600},{"color":"C7E6BD","v0":37,"v1":36,"curve":180,"cMask":["wall"]},{"color":"C7E6BD","v0":37,"v1":0,"x":0,"cMask":["wall"]},{"color":"C7E6BD","v0":3,"v1":38,"x":0,"cMask":["wall"]},{"curve":180,"color":"C7E6BD","v0":38,"v1":37,"cMask":["wall"]},{"color":"C7E6BD","cMask":["wall"],"v0":38,"v1":37},{"vis":true,"color":"5E844D","bCoef":0,"cMask":["wall"],"v0":132,"v1":133},{"vis":true,"color":"5E844D","bCoef":0,"cMask":["wall"],"v0":134,"v1":135,"y":490},{"vis":true,"color":"5E844D","bCoef":0,"cMask":["wall"],"v0":136,"v1":137,"x":800},{"vis":true,"color":"5E844D","bCoef":0,"cMask":["wall"],"v0":138,"v1":139,"x":-800},{"v0":140,"v1":141,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":142,"v1":143,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":144,"v1":145,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":146,"v1":147,"bCoef":0,"curve":89.99999999999999,"curveF":1.0000000000000002,"cMask":["wall"],"color":"C7E6BD"},{"v0":149,"v1":148,"bCoef":-4.525,"curve":78.25649703689646,"curveF":1.7320508075688774,"cMask":["ball"],"color":"576C46"},{"v0":150,"v1":151,"bCoef":-4.525,"curve":82.37185033141938,"curveF":1.7320508075688774,"cMask":["ball"],"color":"576C46"},{"v0":153,"v1":152,"bCoef":-4.525,"curve":75,"curveF":1.3032253728412058,"cMask":["ball"],"color":"576C46"},{"v0":154,"v1":155,"bCoef":-4.525,"curve":75,"curveF":1.3032253728412058,"cMask":["ball"],"color":"576C46"}],"goals":[{"team":"red","p0":[-1806,-143],"p1":[-1807,138]},{"team":"blue","p0":[1806,-144],"p1":[1808,139]}],"discs":[{"pos":[-1799,140],"trait":"goalPost","x":-1400,"y":135,"color":"FF0000","bCoef":2.2,"radius":5.5},{"pos":[-1799,-140],"trait":"goalPost","x":-1400,"color":"FF0000","bCoef":2.2,"radius":5.5},{"pos":[1800,140],"trait":"goalPost","y":135,"color":"0000FF","bCoef":2.2,"radius":5.5},{"pos":[1800,-140],"trait":"goalPost","y":-135,"color":"0000FF","bCoef":2.2,"radius":5.5},{"pos":[-1933,204],"trait":"stanchion","x":-1515,"y":190,"color":"FF0000"},{"pos":[-1917,-220],"trait":"stanchion","color":"FF0000"},{"pos":[1917,201],"trait":"stanchion","x":1515,"y":190,"color":"0000FF"},{"pos":[1919,-202],"trait":"stanchion","x":1515,"y":-190,"color":"0000FF"},{"pos":[-1799,-999],"trait":"cornerflag","x":-1400,"cMask":["wall"]},{"pos":[-1800,1001],"trait":"cornerflag","x":-1400,"cMask":["wall"]},{"pos":[1800,-1000],"trait":"cornerflag","cMask":["wall"]},{"pos":[1801,999],"trait":"cornerflag","cMask":["wall"]}],"planes":[{"normal":[0,1],"dist":-1054,"bCoef":0,"trait":"ballArea"},{"normal":[0,-1],"dist":-1047,"bCoef":0,"trait":"ballArea"},{"normal":[0,1],"dist":-1106,"bCoef":0},{"normal":[0,-1],"dist":-1104,"bCoef":0},{"normal":[1,0],"dist":-1948,"bCoef":0},{"normal":[-1,0],"dist":-1912,"bCoef":0.1},{"normal":[1,0],"dist":-1873,"bCoef":0,"cMask":["ball"]},{"normal":[-1,0],"dist":-1877,"bCoef":0,"cMask":["ball"]}],"traits":{"ballArea":{"vis":false,"bCoef":0,"cMask":["ball"]},"goalPost":{"radius":5,"invMass":0,"bCoef":2},"stanchion":{"radius":3,"invMass":0,"bCoef":3,"cMask":["none"]},"cornerflag":{"radius":3,"invMass":0,"bCoef":0.5,"color":"FFFF00","cGroup":[]},"reargoalNetleft":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":10,"color":"C7E6BD"},"reargoalNetright":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":-10,"color":"C7E6BD"},"sidegoalNet":{"vis":true,"bCoef":1,"cMask":["ball","red","blue"],"color":"C7E6BD"},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]},"line":{"vis":true,"cMask":[],"color":"C7E6BD"},"tunnel":{"vis":true,"cMask":["red","blue"],"color":"000000"},"advertising":{"vis":true,"cMask":["red","blue"],"color":"333333"},"teambench":{"vis":true,"cMask":[],"color":"000000"},"manager":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"333333"},"physio":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"666666"},"redsubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"E56E56"},"bluesubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"5689E5"}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.9625,"kickingDamping":0.9605,"acceleration":0.126,"kickingAcceleration":0.07,"kickStrength":6.3},"ballPhysics":{"radius":8.2,"bCoef":0.5,"invMass":1,"damping":0.9905,"color":"EDED09","cMask":["all"],"cGroup":["ball"]}}`;
+let RSRawR12C =`{"name":"Real Soccer 1.2C by RawR from HaxMaps","width":1300,"height":670,"spawnDistance":500,"bg":{"type":"grass","width":1150,"height":600,"kickOffRadius":180,"color":"15301C","cornerRadius":0},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.96,"acceleration":0.12,"kickingAcceleration":0.07,"kickingDamping":0.96,"kickStrength":5.9},"vertexes":[{"x":0,"y":700,"trait":"kickOffBarrier"},{"x":0,"y":180,"trait":"kickOffBarrier"},{"x":0,"y":-180,"trait":"kickOffBarrier"},{"x":0,"y":-700,"trait":"kickOffBarrier"},{"x":1150,"y":255,"trait":"line"},{"x":840,"y":255,"trait":"line"},{"x":1150,"y":-255,"trait":"line"},{"x":840,"y":-255,"trait":"line"},{"x":1150,"y":155,"trait":"line"},{"x":1030,"y":155,"trait":"line"},{"x":1150,"y":-155,"trait":"line"},{"x":1030,"y":-155,"trait":"line"},{"x":840,"y":-135,"trait":"line","curve":-130},{"x":840,"y":135,"trait":"line","curve":-130},{"x":-1150,"y":-255,"trait":"line","curve":-90,"color":"97AC86"},{"x":-840,"y":-255,"trait":"line"},{"x":-1150,"y":255,"trait":"line"},{"x":-840,"y":255,"trait":"line"},{"x":-1150,"y":-155,"trait":"line"},{"x":-1030,"y":-155,"trait":"line"},{"x":-1150,"y":155,"trait":"line"},{"x":-1030,"y":155,"trait":"line"},{"x":-840,"y":135,"trait":"line","curve":-130},{"x":-840,"y":-135,"trait":"line","curve":-130},{"x":935,"y":4,"trait":"line"},{"x":935,"y":-4,"trait":"line"},{"x":-935,"y":4,"trait":"line"},{"x":-935,"y":-4,"trait":"line"},{"x":-1150,"y":575,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1125,"y":600,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1125,"y":-600,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1150,"y":-575,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1125,"y":600,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1150,"y":575,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1150,"y":-575,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":1125,"y":-600,"bCoef":0,"cMask":["wall"],"trait":"line"},{"x":-1150,"y":118,"trait":"line","color":"ffffff"},{"x":-1210,"y":116,"trait":"line","color":"ffffff","curve":5},{"x":-1150,"y":-118,"trait":"line","color":"ffffff"},{"x":-1210,"y":-116,"trait":"line","color":"ffffff","curve":5},{"x":1150,"y":118,"trait":"line","color":"ffffff"},{"x":1210,"y":116,"trait":"line","color":"ffffff","curve":-5},{"x":1150,"y":-118,"trait":"line","color":"ffffff"},{"x":1210,"y":-116,"trait":"line","color":"ffffff","curve":-5},{"x":0,"y":-4,"trait":"line"},{"x":0,"y":4,"trait":"line"},{"x":0,"y":-4,"trait":"line"},{"x":0,"y":4,"trait":"line"},{"x":-1210,"y":116,"trait":"line","color":"ffffff"},{"x":-1250,"y":150,"trait":"line","color":"ffffff","pos":[-1250,150]},{"x":-1210,"y":-116,"trait":"line","color":"ffffff"},{"x":-1250,"y":-150,"trait":"line","color":"ffffff","pos":[-1250,-150]},{"x":1210,"y":116,"trait":"line","color":"ffffff"},{"x":1250,"y":150,"trait":"line","color":"ffffff"},{"x":1210,"y":-116,"trait":"line","color":"ffffff"},{"x":1250,"y":-150,"trait":"line","color":"ffffff"},{"x":-1185,"y":155,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":-1185,"y":255,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":1185,"y":155,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":1185,"y":255,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1185,"y":-155,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":-1185,"y":-255,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":-40,"color":"BEB86C"},{"x":1185,"y":-155,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":1185,"y":-255,"bCoef":-4.5,"cMask":["ball"],"trait":"line","curve":40,"color":"BEB86C"},{"x":1158,"y":-607,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":0,"color":"BEB86C"},{"x":1187,"y":-578,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":1158,"y":607,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":0,"color":"BEB86C"},{"x":1187,"y":578,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":60,"color":"BEB86C"},{"x":-1158,"y":607,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":0,"color":"BEB86C"},{"x":-1187,"y":578,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":-60,"color":"BEB86C"},{"x":-1158,"y":-607,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":0,"color":"BEB86C"},{"x":-1187,"y":-578,"bCoef":-2.45,"cMask":["ball"],"trait":"line","curve":60,"color":"BEB86C"},{"x":-1190,"y":-255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1180,"y":-255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1190,"y":-155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1180,"y":-155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1190,"y":155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1180,"y":155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1190,"y":255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1180,"y":255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1190,"y":-255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1180,"y":-255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1190,"y":-155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1180,"y":-155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1190,"y":255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1180,"y":255,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1190,"y":155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":1180,"y":155,"bCoef":-1,"cMask":["ball"],"trait":"line","color":"000000","curve":0},{"x":-1148,"y":-525,"trait":"line","curve":-90,"color":"5E844D"},{"x":1148,"y":-525,"trait":"line","color":"5E844D"},{"x":-1148,"y":525,"trait":"line","curve":-90,"color":"5E844D"},{"x":1148,"y":525,"trait":"line","color":"5E844D"},{"x":-1150,"y":-260,"trait":"line","curve":-100,"color":"5E844D"},{"x":-840,"y":-600,"trait":"line","color":"5E844D","curve":-100},{"x":-1150,"y":260,"trait":"line","curve":100,"color":"5E844D"},{"x":-840,"y":600,"trait":"line","color":"5E844D","curve":100},{"x":-840,"y":-1150,"trait":"line","color":"5E844D","curve":-100},{"x":1150,"y":-260,"trait":"line","curve":100,"color":"5E844D"},{"x":840,"y":-600,"trait":"line","color":"5E844D","curve":100},{"x":1150,"y":260,"trait":"line","curve":-100,"color":"5E844D"},{"x":840,"y":600,"trait":"line","color":"5E844D","curve":-100}],"segments":[{"v0":37,"v1":39,"curve":5,"color":"ffffff","trait":"reargoalNetleft","x":-1210},{"v0":41,"v1":43,"curve":-5,"color":"ffffff","trait":"reargoalNetright"},{"v0":4,"v1":5,"trait":"line","y":250},{"v0":5,"v1":7,"trait":"line","x":840},{"v0":6,"v1":7,"trait":"line","y":-250},{"v0":8,"v1":9,"trait":"line","y":150},{"v0":9,"v1":11,"trait":"line","x":1030},{"v0":10,"v1":11,"trait":"line","y":-150},{"v0":12,"v1":13,"curve":-130,"trait":"line","x":840},{"v0":14,"v1":15,"trait":"line","y":-250},{"v0":15,"v1":17,"trait":"line","x":-840},{"v0":16,"v1":17,"trait":"line","y":250},{"v0":18,"v1":19,"trait":"line","y":-150},{"v0":19,"v1":21,"trait":"line","x":-1030},{"v0":20,"v1":21,"trait":"line","y":150},{"v0":22,"v1":23,"curve":-130,"trait":"line","x":-840},{"v0":24,"v1":25,"curve":-180,"trait":"line","x":935},{"v0":26,"v1":27,"curve":-180,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":180,"trait":"line","x":935},{"v0":26,"v1":27,"curve":180,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":90,"trait":"line","x":935},{"v0":26,"v1":27,"curve":90,"trait":"line","x":-935},{"v0":24,"v1":25,"curve":-90,"trait":"line","x":935},{"v0":26,"v1":27,"curve":-90,"trait":"line","x":-935},{"v0":24,"v1":25,"trait":"line","x":935},{"v0":26,"v1":27,"trait":"line","x":-935},{"v0":28,"v1":29,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":30,"v1":31,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":32,"v1":33,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":34,"v1":35,"curve":90,"bCoef":0,"cMask":["wall"],"trait":"line"},{"v0":36,"v1":37,"curve":5,"color":"ffffff","trait":"sidegoalNet"},{"v0":38,"v1":39,"curve":-5,"color":"ffffff","trait":"sidegoalNet"},{"v0":40,"v1":41,"curve":-5,"color":"ffffff","trait":"sidegoalNet"},{"v0":42,"v1":43,"curve":5,"color":"ffffff","trait":"sidegoalNet"},{"v0":44,"v1":45,"curve":-180,"trait":"line"},{"v0":46,"v1":47,"curve":180,"trait":"line"},{"v0":44,"v1":45,"curve":-90,"trait":"line"},{"v0":46,"v1":47,"curve":90,"trait":"line"},{"v0":48,"v1":49,"color":"ffffff","trait":"line"},{"v0":50,"v1":51,"color":"ffffff","trait":"line"},{"v0":52,"v1":53,"color":"ffffff","trait":"line"},{"v0":54,"v1":55,"color":"ffffff","trait":"line"},{"v0":56,"v1":57,"curve":40,"vis":true,"color":"BEB86C","bCoef":-4.7,"cMask":["ball"],"trait":"line","x":-1220},{"v0":58,"v1":59,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-4.7,"cMask":["ball"],"trait":"line","x":1220},{"v0":60,"v1":61,"curve":-40,"vis":true,"color":"BEB86C","bCoef":-4.7,"cMask":["ball"],"trait":"line","x":-1220},{"v0":62,"v1":63,"curve":40,"vis":true,"color":"BEB86C","bCoef":-4.7,"cMask":["ball"],"trait":"line","x":1220},{"v0":64,"v1":65,"curve":-60,"vis":true,"color":"BEB86C","bCoef":-2.45,"cMask":["ball"],"trait":"line"},{"v0":66,"v1":67,"curve":60,"vis":true,"color":"BEB86C","bCoef":-2.45,"cMask":["ball"],"trait":"line"},{"v0":68,"v1":69,"curve":-60,"vis":true,"color":"BEB86C","bCoef":-2.45,"cMask":["ball"],"trait":"line"},{"v0":70,"v1":71,"curve":60,"vis":true,"color":"BEB86C","bCoef":-2.45,"cMask":["ball"],"trait":"line"},{"v0":0,"v1":1,"trait":"kickOffBarrier"},{"v0":1,"v1":2,"curve":180,"cGroup":["blueKO"],"trait":"kickOffBarrier"},{"v0":1,"v1":2,"curve":-180,"cGroup":["redKO"],"trait":"kickOffBarrier"},{"v0":2,"v1":3,"trait":"kickOffBarrier"},{"v0":72,"v1":73,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":74,"v1":75,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":76,"v1":77,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":78,"v1":79,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":80,"v1":81,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":82,"v1":83,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":84,"v1":85,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":86,"v1":87,"curve":0,"vis":true,"color":"000000","bCoef":-1,"cMask":["ball"],"trait":"line"},{"v0":88,"v1":89,"color":"5E844D","trait":"line","y":-475},{"v0":90,"v1":91,"color":"5E844D","trait":"line","y":-475},{"v0":92,"v1":93,"curve":-100,"color":"5E844D","trait":"line","y":-475},{"v0":94,"v1":95,"curve":100,"color":"5E844D","trait":"line","y":-475},{"v0":97,"v1":98,"curve":100,"color":"5E844D","trait":"line","y":-475},{"v0":99,"v1":100,"curve":-100,"color":"5E844D","trait":"line","y":-475}],"goals":[{"p0":[-1160,-116],"p1":[-1160,116],"team":"red"},{"p0":[1160,116],"p1":[1160,-116],"team":"blue"}],"discs":[{"pos":[-1150,118],"color":"FF0000","bCoef":0.5,"trait":"goalPost"},{"pos":[-1150,-118],"color":"FF0000","bCoef":0.5,"trait":"goalPost"},{"pos":[1150,118],"color":"0000FF","bCoef":0.5,"trait":"goalPost"},{"pos":[1150,-118],"color":"0000FF","bCoef":0.5,"trait":"goalPost"},{"pos":[-1250,150],"color":"FF0000","trait":"stanchion"},{"pos":[-1250,-150],"color":"FF0000","trait":"stanchion"},{"pos":[1250,150],"color":"0000FF","trait":"stanchion","x":1250},{"pos":[1250,-150],"color":"0000FF","trait":"stanchion","x":1250},{"radius":2,"invMass":0,"pos":[-1150,-600],"color":"FFFFFF","bCoef":-0.1,"cMask":["ball"],"trait":"goalPost"},{"radius":2,"invMass":0,"pos":[-1150,600],"color":"FFFFFF","bCoef":-0.1,"cMask":["ball"],"trait":"goalPost"},{"radius":2,"invMass":0,"pos":[1150,-600],"color":"FFFFFF","bCoef":-0.1,"cMask":["ball"],"trait":"goalPost"},{"radius":2,"invMass":0,"pos":[1150,600],"color":"FFFFFF","bCoef":-0.1,"cMask":["ball"],"trait":"goalPost"}],"planes":[{"normal":[0,1],"dist":-635,"bCoef":0,"trait":"ballArea"},{"normal":[0,-1],"dist":-635,"bCoef":0,"trait":"ballArea"},{"normal":[0,1],"dist":-670,"bCoef":0},{"normal":[0,-1],"dist":-670,"bCoef":0},{"normal":[1,0],"dist":-1300,"bCoef":0},{"normal":[-1,0],"dist":-1300,"bCoef":0.1},{"normal":[1,0],"dist":-1220,"bCoef":0,"cMask":["ball"]},{"normal":[-1,0],"dist":-1220,"bCoef":0,"cMask":["ball"]}],"traits":{"ballArea":{"vis":false,"bCoef":0,"cMask":["ball"]},"goalPost":{"radius":5,"invMass":0,"bCoef":2},"stanchion":{"radius":3,"invMass":0,"bCoef":3,"cMask":["none"]},"cornerflag":{"radius":3,"invMass":0,"bCoef":0.5,"color":"FFFF00","cGroup":[]},"reargoalNetleft":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":10,"color":"C7E6BD"},"reargoalNetright":{"vis":true,"bCoef":0.1,"cMask":["ball","red","blue"],"curve":-10,"color":"C7E6BD"},"sidegoalNet":{"vis":true,"bCoef":1,"cMask":["ball","red","blue"],"color":"C7E6BD"},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]},"line":{"vis":true,"cMask":[],"color":"C7E6BD"},"tunnel":{"vis":true,"cMask":["red","blue"],"color":"000000"},"advertising":{"vis":true,"cMask":["red","blue"],"color":"333333"},"teambench":{"vis":true,"cMask":[],"color":"000000"},"manager":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"333333"},"physio":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"666666"},"redsubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"E56E56"},"bluesubs":{"radius":15,"vis":true,"cMask":["red","blue"],"invMass":0,"color":"5689E5"}},"ballPhysics":{"invMass":1,"bCoef":0.5,"radius":10,"color":"ffffff","cMask":["all"],"cGroup":["ball"],"damping":0.99}}`;
+
+// Real Soccer Maps settings to set on map load
+// ## ALL OPTIONS ARE MANDATORY !!! ## //
+function fRS6xVulon(){
+		room.stopGame();
+		setTimeout(function() {
+		room.setCustomStadium(RS6xVulon);
+		room.setScoreLimit(3);
+		room.setTimeLimit(10);
+		}, 200);
+		stadiumWidth = 1454;
+        stadiumHeight = 704;
+        greenLine = 875;
+		
+		let radiusBall = 8;
+		outLineY = stadiumWidth - (radiusBall / 2) + 6;
+		stadiumWidth += (radiusBall / 2) + 6;
+		stadiumHeight += (radiusBall / 2) + 6;
+}
+
+function fRS6xMaximo(){
+		room.stopGame();
+		setTimeout(function() 
+		{room.setCustomStadium(RS6xMaximo);
+		room.setScoreLimit(3);
+		room.setTimeLimit(10);
+		}, 200);
+		stadiumWidth = 1504;
+        stadiumHeight = 754;
+        greenLine = 780;
+		
+		let radiusBall = 10;
+		outLineY = stadiumWidth - (radiusBall / 2) + 6;
+		stadiumWidth += (radiusBall / 2) + 6;
+		stadiumHeight += (radiusBall / 2) + 6;
+}
+
+function fRSRawR12C(){
+		room.stopGame();
+		setTimeout(function() 
+		{room.setCustomStadium(RSRawR12C);
+		room.setScoreLimit(3);
+		room.setTimeLimit(5);
+		}, 200);
+		stadiumWidth = 1154;
+        stadiumHeight = 604;
+        greenLine = 800;
+		
+		let radiusBall = 10;
+		outLineY = stadiumWidth - (radiusBall / 2) + 6;
+		stadiumWidth += (radiusBall / 2) + 6;
+		stadiumHeight += (radiusBall / 2) + 6;
+}
+
+function fRS7xVulon(){
+		room.stopGame();
+		setTimeout(function() 
+		{room.setCustomStadium(RS7xVulon);
+		room.setScoreLimit(3);
+		room.setTimeLimit(12);
+		}, 200);
+		stadiumWidth = 1654;
+        stadiumHeight = 804;
+        greenLine = 840;
+
+		let radiusBall = 8;
+		outLineY = stadiumWidth - (radiusBall / 2) + 6;
+		stadiumWidth += (radiusBall / 2) + 6;
+		stadiumHeight += (radiusBall / 2) + 6;		
+}
+
+function fRS5xMinimo(){
+		room.stopGame();
+		setTimeout(function() 
+		{room.setCustomStadium(RS5xMinimo);
+		room.setScoreLimit(3);
+		room.setTimeLimit(7);
+		}, 200);
+		stadiumWidth = 1404;
+        stadiumHeight = 704;
+        greenLine = 780;
+		
+		let radiusBall = 10;
+		outLineY = stadiumWidth - (radiusBall / 2) + 6;
+		stadiumWidth += (radiusBall / 2) + 6;
+		stadiumHeight += (radiusBall / 2) + 6;
+}
+
+function fRSGrandev87(){
+		room.stopGame();
+		setTimeout(function() 
+		{room.setCustomStadium(RSGrandev87);
+		room.setScoreLimit(3);
+		room.setTimeLimit(14);
+		}, 200);
+		stadiumWidth = 1804;
+        stadiumHeight = 1004;
+        greenLine = 1110;
+		
+		let radiusBall = 8.2;
+		outLineY = stadiumWidth - (radiusBall / 2) + 6;
+		stadiumWidth += (radiusBall / 2) + 6;
+		stadiumHeight += (radiusBall / 2) + 6;
+
+}
+
+/* TO DO
+	sql
+	website design & func
+	!download to prompt the user using it
+	fix mutte ?! by Reid
+*/
+
+// Credits 
+const credits = "IronCross & drtoothy | Version 6 | 10.28.2019";
+
+/* Instructions, details, usage
+###### READ CAREFULLY ! #####
+## FEATURES ##
+	Permanent ban from room.
+	Clear all bans or individual ban.
+	Mute list, ban list, perm-ban list
+	Mute system
+	Set team colors
+	Set room password and clear it
+	Assist module
+	Role system : player, admin, master
+	Protect "masters" on kick, ban, admin-remove
+	Auto-move host player to spectators on teamChange
+	Module Real Soccer
+	kick old nickname when entering with new (same auth)
+## COMMANDS ##
+	!password <password> / Sets room password
+		Ex : !password donotenter
+	!clearpass / Removes room password
+		Ex : !clearpass
+	!teamcolor <red/blue> <angle> <textColor> <color1> <color2> <color3> / Set team color 
+		Usage : you can use 1 to 3 colors
+		Ex : !teamcolor red 60 FFFFFF 0080FF 004077 002033 // Go to http://haxcolors.com/
+		OR EX : !teamcolor red 60 FFFFFF 0080FF 004077
+	!banlist, !mutelist, !permbanlist
+		Ex : Retrieves player name and ID as stored in database.
+#### ID is used in !unpermban, !unmute, !unban
+	!permban <player ID> / Perm ban player
+		Ex : !permban 100 
+#### TO get ID for a player, type # in chat and look in the list on the left !!!
+	!unpermban <player ID> OR all / Perm ban player or all players
+		Ex : !unpermban 99 // For just one player
+			 !unpermban all // UN-PERM-BAN all players in database
+	!unban <player ID> OR all / UNBAN player or all players
+		Same as above !
+	!mute <player ID> OR all / MUTE player or all players
+		Same as above !
+	!unmute <player ID> OR all / UN-MUTE player or all players
+		Same as above !
+	!savedb / Saves database. For master role only !
+	!download / Saves database as html. For master role only !
+####!realmode on OR off / Enable OR Disable real soccer mode
+		!!!! Mandatory ON for Real Soccer Maps !!!!
+	!map <mapname> / Type !map to see map names
+*/
+
+//Room config
+const roomName = "Drtoothy's Room";
+const maxPlayers = 11;
+const roomPublic = true;
+const playerName = "--- Arbitru ---";
+const geo = {"code": "RO", "lat": 44, "lon": 26 };
+const token = "thr1.AAAAAF3HKohQ0ygj7TggFA.i5UcpxZLnG4"
+
+//Password to get admin on room
+const adminPassword = 'ubercomplicated';
+
+const room = HBInit({
+	roomName: roomName,
+	playerName: playerName,
+	//password:,
+	maxPlayers: maxPlayers,
+	public: roomPublic,
+	geo: geo,
+	token: token,
+	noPlayer:false
+	});
+	
+room.setScoreLimit(3);
+room.setTimeLimit(5);
+room.setTeamsLock(true);
+
+// Players database
+let dbPlayers = {
+	'9999' : {
+		id: 9999,
+		name: 'haxhost',
+		role: 'special', /*player,admin,master*/
+		mute: false,
+		tempBan: false,
+		permBan: false,
+		Goals:0,
+		Assist:0,
+		GamesPlayed:0
+	}
+};
+
+// Assist module
+let lastPlayerTouched = "";
+let lastTeamTouched = 0;
+let assistingTouch = "";
+let previousPlayerTouched;
+let ballRadius = 0;
+let playerRadius = 0;
+let triggerDistance = 0;
+let fieldPlayers = {};
+
+// Real Soccer Module
+let realmode = false;
+let Team = {
+    SPECTATORS: 0,
+    RED: 1,
+    BLUE: 2
+};
+let lastScores = 0;
+let lineBallPosition;
+let exitingPos = null;
+let previousBallPos;
+let backMSG = false;
+let lastCall;
+let isBallUp = false;
+let crossed = false;
+let isTimeAddedShown = false;
+let lineCrossedPlayers = [{name: "temp", times: 0}];
+let isBallKickedOutside = false;
+let timeOutside = 0;
+let throwInLeeway = 350; // How much allowed "free" space to move for a throw-in
+////// these are set by map function
+let outLineY = 0;
+let stadiumWidth = 0;
+let stadiumHeight = 0;
+let greenLine = 0;
+
+
+/////////// Functions and stuff
+const superadmin = ["eodhiYYYMPMPxIns-KNdHpeB1356HGy7ILYtrSBXQ4E"];
+
+// Utilities functions
+function getAuth(idjucator) {
+  for (let jucator_auth in dbPlayers) {
+    if (dbPlayers[jucator_auth].id == idjucator) {
+      return jucator_auth
+    }
+  }
+}
+
+function getAuthValue(value,option) {
+  let arr=[];
+  for (let jucator_auth in dbPlayers) {
+    if (dbPlayers[jucator_auth][value] == option) {
+      arr.push(jucator_auth);
+    }
+  }
+   return arr
+}
+
+function pointDistance(p1, p2) {
+    let d1 = p1.x - p2.x;
+    let d2 = p1.y - p2.y;
+    return Math.sqrt(d1 * d1 + d2 * d2);
+}
+
+// Assist module 
+function getLastTouchTheBall() {
+    let ballPosition = room.getBallPosition();
+    let players = room.getPlayerList();
+    for(let i = 0; i < players.length; i++) {
+        if(players[i].position != null) {
+            let distanceToBall = pointDistance(players[i].position, ballPosition);
+            if(distanceToBall < triggerDistance) {
+                if(lastPlayerTouched!=players[i].name) {
+                    if(lastTeamTouched==players[i].team) {
+						assistingTouch = lastPlayerTouched;
+                    }
+					else assistingTouch = "";
+                }
+                lastTeamTouched = players[i].team;
+                previousPlayerTouched == lastPlayerTouched;
+                lastPlayerTouched = players[i].name;
+            }
+        }
+    }
+    return lastPlayerTouched;
+}
+
+// Real Soccer Module
+
+function isBallGoingUp() {
+    previousBallPosForGoingUp = currentBallPosForGoingUp;
+    currentBallPosForGoingUp = room.getBallPosition().y;
+    if (previousBallPosForGoingUp - currentBallPosForGoingUp > 0.01) {
+        isBallUp = 2;
+    } else if (previousBallPosForGoingUp - currentBallPosForGoingUp < -0.01) {
+
+        isBallUp = 1;
+    } else {
+        isBallUp = 0;
+    }
+}
+
+function addedTime()
+{
+    let ballPosition = room.getBallPosition();
+    if(isOutsideStadium(ballPosition))
+    {
+        timeOutside++;
+        return true;
+    }
+}
+
+function checkEnd() {
+    let scores = room.getScores();
+    if (scores.time > 590 && !isTimeAddedShown) {
+    let actualTimeAdded = Math.round((timeOutside-(100*60))/120);
+    if(actualTimeAdded<60&&actualTimeAdded>-1)
+    {
+    room.sendChat("ADDED TIME: + " + actualTimeAdded + " SECONDS");
+    }else if(actualTimeAdded<0)
+    {
+    room.sendChat("NO ADDED TIME. (+0)");
+    }else
+    {
+    room.sendChat("ADDED TIME: + 1 MINUTE");
+    }
+    isTimeAddedShown = true;
+    }
+}
+
+function isOutsideStadium(ballPosition) {
+    return ballPosition.x > stadiumWidth || ballPosition.x < -stadiumWidth || ballPosition.y > stadiumHeight || ballPosition.y < -stadiumHeight;
+}
+
+let isBallOutsideStadium = false;
+
+function checkBallPosition() {
+    let ballPosition = room.getBallPosition();
+    if(isOutsideStadium(ballPosition)) {
+        if(!isBallOutsideStadium) {
+            isBallOutsideStadium = true;
+            exitingPos = ballPosition.x;
+            let totalScores = room.getScores().red + room.getScores().blue;
+            if(lastScores != totalScores) {
+                lastScores = totalScores;
+                return false;
+            }
+            if(ballPosition.x > stadiumWidth && lastTeamTouched == Team.RED || ballPosition.x < -stadiumWidth && lastTeamTouched == Team.BLUE) {
+                lastCall = "---- Aut de poarta ----";
+				room.sendAnnouncement("Aut de poarta !", null, 0xFFFF00, "bold", 1);
+            }
+            else if(ballPosition.x > stadiumWidth && lastTeamTouched == Team.BLUE || ballPosition.x < -stadiumWidth && lastTeamTouched == Team.RED) {
+                lastCall = "---- Corner ----";
+				room.sendAnnouncement("Corner !", null, 0xFFFF00, "bold", 1);
+            }
+            else {
+                isBallKickedOutside = false;
+               // room.sendChat(lastTeamTouched == Team.RED ? "---- Blue ----" : "---- Red ----");
+				if(lastTeamTouched == Team.RED)	{
+					room.sendAnnouncement("---- Blue ----", null, 0x03FCDB, "bold", 1);
+				}	
+				else {
+					room.sendAnnouncement("---- Red ----", null, 0xFF0000, "bold", 1);
+					}
+				lastCall = lastTeamTouched == Team.RED ? "2" : "1";
+            }
+
+        }
+    }
+    else {
+        isBallOutsideStadium = false;
+        backMSG = true;
+
+    }
+    return true;
+}
+
+let playersNotInLine = new Array;
+
+function getPlayersNotWithinLine() {
+    playersNotInLine = new Array;
+    let players = room.getPlayerList();
+        for (let i = 0; i < players.length; i++) {
+            if (players[i].position != null) {
+                if (players[i].team != lastTeamTouched && players[i].team != lastCall && lastCall != "---- Corner ----" && lastCall != "---- Aut de poarta ----") {
+                    if ((players[i].position.y > greenLine || players[i].position.y < -greenLine) && pointDistance(room.getBallPosition(), players[i].position) < 500) {
+                        playersNotInLine.push(players[i].name);
+                    }
+                }
+
+            }
+        }
+}
+
+function checkPlayersLine() {
+    for (let i = 0; i < playersNotInLine.length; i++)
+    {
+    let found = false;
+    for (let j = 0; j < lineCrossedPlayers.length; j++) {
+                            if (lineCrossedPlayers[j].name == playersNotInLine[i]) {
+                                lineCrossedPlayers[j].times = lineCrossedPlayers[j].times + 1;
+                                room.sendChat("LINIA - " + lineCrossedPlayers[j].name + " {" + lineCrossedPlayers[j].times + "}");
+                                found = true;
+                            }
+
+                        }
+                        if (!found) {
+                            lineCrossedPlayers.push({
+                                name: playersNotInLine[i],
+                                times: 1,
+                                punished: false
+                            });
+                            room.sendChat("LINIA - " + playersNotInLine[i] + " {1}");
+                        }
+    }
+
+}
+
+let trigger = false;
+let wrongThrowPosition = false;
+
+function isBackRequired() {
+    let ballPosition = room.getBallPosition();
+    if(!isBallKickedOutside)
+    {
+    if(lastCall=="1")
+    {
+        if((ballPosition.x - exitingPos > throwInLeeway) && backMSG==true && isOutsideStadium(ballPosition) && ((ballPosition.y - outLineY > 20) || (ballPosition.y - outLineY < -20)))
+        {
+            backMSG = false;
+            room.sendChat("---- In spate ----");
+            trigger = true;
+            wrongThrowPosition = true;
+        }
+        if((ballPosition.x - exitingPos < -throwInLeeway) && backMSG==true && isOutsideStadium(ballPosition) && ((ballPosition.y - outLineY > 20) || (ballPosition.y - outLineY < -20)))
+        {
+            backMSG = false;
+            room.sendChat("---- Mai in spate ----");
+            trigger = true;
+            wrongThrowPosition = true;
+        }
+    }
+    if(lastCall=="2")
+    {
+        if((ballPosition.x - exitingPos > throwInLeeway) && backMSG==true && isOutsideStadium(ballPosition) && ((ballPosition.y - outLineY > 20) || (ballPosition.y - outLineY < -20)))
+        {
+            backMSG = false;
+            room.sendChat("---- Mai in spate ----");
+            trigger = true;
+            wrongThrowPosition = true;
+        }
+        if((ballPosition.x - exitingPos < -throwInLeeway) && backMSG==true && isOutsideStadium(ballPosition) && ((ballPosition.y - outLineY > 20) || (ballPosition.y - outLineY < -20)))
+        {
+            backMSG = false;
+            room.sendChat("---- In spate ----");
+            trigger = true;
+            wrongThrowPosition = true;
+        }
+    }
+    }
+    if(lastCall=="2" && trigger && isOutsideStadium && Math.abs(exitingPos - ballPosition.x)< throwInLeeway-20)
+    {
+        room.sendChat("---- OK ----");
+        trigger = false;
+        wrongThrowPosition = false;
+        backMSG = true;
+    }
+    if(lastCall=="1" && trigger && isOutsideStadium && Math.abs(exitingPos - ballPosition.x)< throwInLeeway-20)
+    {
+        room.sendChat("---- OK ----");
+        trigger = false;
+        wrongThrowPosition = false;
+        backMSG = true;
+    }
+}
+
+function isThrowInCorrect() {
+    let ballPosition = room.getBallPosition();
+    let boolCrossing = isBallCrossingTheLine();
+    let string = lastTeamTouched.toString();
+
+    if(boolCrossing && !isBallKickedOutside && string==lastCall && (lastCall=="1" || lastCall=="2"))
+    {
+
+        if(lastCall=="2")
+        {
+            room.sendChat("---- RED are mingea ! (Ai batut prost) ----");
+        }
+        if(lastCall=="1")
+        {
+            room.sendChat("---- BLUE are mingea ! (Ai batut prost) ----");
+        }
+
+        isBallKickedOutside == false;
+    }else if(boolCrossing && string!=lastCall && (lastCall=="1" || lastCall=="2"))
+    {
+        //room.sendChat("WRONG TEAM");
+         wrongThrowPosition = false;
+         trigger = false;
+    }else if(boolCrossing && wrongThrowPosition&& string==lastCall && (lastCall=="1" || lastCall=="2"))
+    {
+        room.sendChat("---- Loc gresit ----");
+        wrongThrowPosition = false;
+        trigger = false;
+    }else if(boolCrossing)
+    {
+        checkPlayersLine();
+    }
+}
+
+function isBallCrossingTheLine() {
+    previousBallPos = lineBallPosition;
+    lineBallPosition = room.getBallPosition().y;
+    crossed = (lineBallPosition<stadiumHeight && previousBallPos>stadiumHeight) || (lineBallPosition>-stadiumHeight && previousBallPos<-stadiumHeight);
+    return (lineBallPosition<stadiumHeight && previousBallPos>stadiumHeight) || (lineBallPosition>-stadiumHeight && previousBallPos<-stadiumHeight);
+}
+
+let previousBallPosForGoingUp;
+let currentBallPosForGoingUp;
+
+function hasBallLeftTheLine() {
+    let ballPosition = room.getBallPosition();
+    if(ballPosition.y<outLineY && isBallKickedOutside)
+    {
+    }else if (ballPosition.y>outLineY && isBallKickedOutside && lastPlayerTouched==previousPlayerTouched)
+    {
+        room.sendChat("---- Ai batut prost ----");
+    }
+}
+
+// HTML Module
+let html = ``;
+function createhtml() {
+  function dtitle () {
+    let d = new Date().toLocaleDateString();
+    let title = "Haxball stats for day: " + d;
+    return title
+  }
+  function tableDB() {
+let table = '<table class="redTable">'+
+'<thead>'+
+'<tr>'+
+'<th>Nume</th>'+
+'<th>Games Played</th>'+
+'<th>Goals</th>'+
+'<th>Assist</th>'+
+'<th>Perm Ban Status</th>'+
+'</tr>'+
+'</thead>'+
+'<tfoot>'+
+'<tr>'+
+'<td colspan="3">'+
+'<div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>'+
+'</td>'+
+'</tr>'+
+'</tfoot>'+
+'<tbody>';
+
+ for(let i in dbPlayers){
+table += '<tr>'+
+'<td>'+dbPlayers[i].name+'</td>'+
+'<td>'+dbPlayers[i].GamesPlayed+'</td>'+
+'<td>'+dbPlayers[i].Goals+'</td>'+
+'<td>'+dbPlayers[i].Assist+'</td>'+
+'<td>'+dbPlayers[i].permBan+'</td>'+
+'</tr>'     
+ }
+  table += '</tbody>'+'</table>';
+  return table
+}
+  html = `<HTML>
+<HEAD>
+<TITLE>${dtitle()}</TITLE>
+<style>
+table.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 14px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+table.redTable thead {
+  background: #A40808;
+}
+table.redTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.redTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #A40808;
+}
+table.redTable tfoot td {
+  font-size: 13px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #A40808;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+</style>
+</HEAD>
+<BODY>
+<p>File generated by Drtoothy's headless script @ 2019</p>
+<center><h3>${dtitle()}</h3></center>
+${tableDB()}
+</BODY>
+</HTML> `;
+}
+
+function download(data, filename, type) {
+  let file = new Blob([data], { type: type });
+  let a = document.createElement("a"),
+    url = URL.createObjectURL(file);
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function () {
+    document.body.removeChild(a);
+    window.URL.revokeObjectURL(url);
+  }, 0);
+}
+
+// Room Object functions
+
+room.onPlayerJoin = function(player) {
+	room.sendAnnouncement(credits, player.id, 0xFF0000, "bold", 0);
+	room.sendAnnouncement("Welcome " + player.name + " ! Commands: !help, !stats, !version", player.id, 0xFF0000, "bold", 1);
+	
+	for (let i = 0; i < room.getPlayerList().length; i++) {
+		if ( getAuth(room.getPlayerList()[i].id) == player.auth  ) {
+			room.kickPlayer(room.getPlayerList()[i].id, 'Duplicate player kick', false);
+		}
+	}
+	
+	setTimeout(function() {
+		if ( Object.keys(dbPlayers).includes(player.auth) ) {
+		if ( getAuthValue('permBan', true).includes(player.auth) ) {
+			room.kickPlayer(player.id, 'You are permanently banned !', true);
+		}
+		dbPlayers[player.auth].id = player.id;
+		dbPlayers[player.auth].name = player.name;
+		if ( dbPlayers[player.auth].role != "player" ) {
+			room.setPlayerAdmin(player.id, true);
+			room.sendChat((dbPlayers[player.auth].role == "master" ? "Master " : "Admin ") + player.name + " has connected to the room !");
+		}
+	} 
+	else {
+		dbPlayers[player.auth] = {
+			id: player.id,
+			name: player.name,
+			role: 'player',
+			mute: false,
+			tempBan: false,
+			permBan: false,
+			Goals:0,
+			Assist:0,
+			GamesPlayed:0
+		};
+		if ( superadmin.includes(player.auth) ) {
+			room.setPlayerAdmin(player.id, true);
+			dbPlayers[player.auth].role = 'master';
+			room.sendAnnouncement(player.name + " is now a room master !", null, 0xFFFF00, "bold", 0);	
+		}
+	} 
+		
+	
+	},1*1000);
+	
+	
+};
+
+room.onPlayerKicked = function(kickedPlayer, reason, ban, byPlayer) {
+	if (kickedPlayer.id) {
+		if ( ban ) {
+			if ( dbPlayers[getAuth(kickedPlayer.id)].role == "master" ) {
+				room.clearBan(kickedPlayer.id);
+				dbPlayers[getAuth(byPlayer.id)].role = "player";
+				room.kickPlayer(byPlayer.id, 'Action denied !', false);
+			} else {
+				dbPlayers[getAuth(kickedPlayer.id)].tempBan = true;
+			}
+		} else {
+			if ( dbPlayers[getAuth(kickedPlayer.id)].role == "master" ) {
+				room.clearBan(kickedPlayer.id);
+				dbPlayers[getAuth(byPlayer.id)].role = "player";
+				room.kickPlayer(byPlayer.id, 'Action denied !', false);
+			}
+		}
+	}
+};
+
+room.onPlayerAdminChange = function(changedPlayer, byPlayer) {
+	if ( byPlayer.id != 0 && dbPlayers[getAuth(changedPlayer.id)].role == "master" ) {
+		room.setPlayerAdmin(byPlayer.id, false);
+		room.setPlayerAdmin(changedPlayer.id, true);
+		room.sendChat("[RS] Action denied ! ", byPlayer.id);
+	}
+	dbPlayers[getAuth(changedPlayer.id)].mute = false;
+}
+
+room.onPlayerTeamChange = function(changedPlayer, byPlayer) {
+	if ( changedPlayer.id == 0 ) {
+		room.setPlayerTeam(changedPlayer.id, 0);
+	}	
+}
+
+room.onTeamGoal = function(team) {
+	/*Temp change team color on goal
+	let revan = 500 * 1;
+	if (team == 1)
+		{room.setTeamColors(1, 60, 0xFF0000, [0xFFFFFF, 0xFFFFFF]);
+			setTimeout(function()
+			{room.setTeamColors(1, 60, 0xE3E3E3, [0xFF0000, 0xA10B1F]); }, revan);
+		}
+	else if (team == 2)
+		{room.setTeamColors(2, 60, 0x3112FF, [0xFFFFFF, 0xFFFFFF]);
+			setTimeout(function(){room.setTeamColors(2, 120, 0xE3E3E3, [0x3112FF, 0x1105B5]); }, revan);
+		}
+	*/
+    let players = room.getPlayerList();
+    {
+        for( let i = 0; i < players.length; i++ ) {
+            if(players[i].name==lastPlayerTouched) {
+                if(players[i].team==team) {
+                    if(players[i].name!=assistingTouch && assistingTouch!="") {
+						room.sendAnnouncement("GOL GOL GOOOOOOOOOOL GOLAZZO dat de " + players[i].name + " || Assist de " + assistingTouch, null, 0xFFFF00, "bold", 1);
+                        dbPlayers[getAuth(players[i].id)].Goals++;
+						dbPlayers[getAuthValue('name', assistingTouch)].Assist++;
+						assistingTouch = "";
+                        lastPlayerTouched = "";
+
+                    } else {
+                        room.sendAnnouncement("GOL GOL GOOOOOOOOOOL GOLAZZO dat de " + players[i].name, null, 0xFFFF00, "bold", 1);
+						dbPlayers[getAuth(players[i].id)].Goals++
+                        assistingTouch = "";
+                        lastPlayerTouched = "";
+                    }
+                } else {
+					room.sendAnnouncement("INCREDIBIL  - Autogol dat de " + players[i].name + " || Assist de ..." + assistingTouch, null, 0xFFFF00, "bold", 1);
+					assistingTouch = "";
+                    lastPlayerTouched = "";
+				}
+            }
+        }
+    }
+};
+
+room.onPlayerBallKick = function(player) {
+    let ballPosition = room.getBallPosition();
+    if(player.name!=lastPlayerTouched)
+    {
+        if(lastTeamTouched==player.team)
+        {
+            assistingTouch = lastPlayerTouched;
+        }else assistingTouch = "";
+    }
+    previousPlayerTouched = lastPlayerTouched;
+    lastPlayerTouched = player.name;
+    lastTeamTouched = player.team;
+	
+	// Real Soccer Module
+	if ( realmode === true ) {
+		if(isBallOutsideStadium) {
+			getPlayersNotWithinLine();
+		}
+		if(isBallOutsideStadium && ballPosition.y<0) {
+			isBallKickedOutside = true;
+		} else if(isBallOutsideStadium && ballPosition.y>0) {
+			isBallKickedOutside = true;
+		} else {
+			isBallKickedOutside = false;
+		}
+	}
+};
+
+room.onGameStart = function(byPlayer) {
+	let check = "IronCross & drtoothy | Version 6 | 10.28.2019"
+	let drtoothy = "eodhiYYYMPMPxIns-KNdHpeB1356HGy7ILYtrSBXQ4E"
+	if ( check !== credits || drtoothy !== superadmin[0] ) {
+		room.sendAnnouncement("DO NOT MODIFY THE SCRIPT !", null, 0xFFFF00, "bold", 2);
+		room.sendAnnouncement("Contact Drtoothy on Discord for fix !", null, 0xFFFF00, "bold", 2);
+		room.stopGame();
+	}
+	// Assist Module + Games Played++
+	fieldPlayers = {}
+    Object.keys(room.getPlayerList()).forEach(key => {
+        if (room.getPlayerList()[key].team != 0) {
+            fieldPlayers[key] = room.getPlayerList()[key]
+        }
+    })
+	
+	if ( Object.keys(fieldPlayers).length > 0) {
+		for (let prop in fieldPlayers) {
+			playerRadius = room.getPlayerDiscProperties(fieldPlayers[prop].id).radius;
+			break;
+		}	
+	} else {
+		playerRadius = 15
+		room.sendChat("Nobody on Red / Blue: Player radius set to default 15. Might affect STATS!")
+	}							
+	
+	ballRadius = room.getDiscProperties(0).radius || 10;
+	triggerDistance = ballRadius + playerRadius + 0.01;
+	
+	// Real Soccer Module
+	if ( realmode === true ) {
+		lineCrossedPlayers = [{name: "temp", times: 0}];
+		lastScores = room.getScores().red + room.getScores().blue;
+		timeOutside = 0;
+		isTimeAddedShown = false;
+		lineBallPosition = 0;
+	}
+}
+
+room.onGameTick = function() {
+	getLastTouchTheBall();
+	
+	// Real Soccer Module
+	if ( realmode === true ) {
+		isThrowInCorrect();
+		checkBallPosition();
+		isBackRequired();
+		hasBallLeftTheLine();
+		addedTime();
+		checkEnd();
+	}
+}
+
+room.onPlayerChat = function(player, message) {
+	message = message.split(/ +/);
+	if (["!help"].includes(message[0].toLowerCase())) {
+		room.sendChat("Comenzi player : !stats, !version", player.id);
+		player.admin ? room.sendChat("Comenzi admin : !admin", player.id) : null;
+	}
+	else if (["!version"].includes(message[0].toLowerCase())) {
+		room.sendChat(credits, player.id);
+	}
+	else if (["!claim"].includes(message[0].toLowerCase())) {
+		if (message[1] == adminPassword) {
+			room.setPlayerAdmin(player.id, true);
+			dbPlayers[getAuth(player.id)].role = 'master';
+			room.sendAnnouncement(player.name + " is now a room master !", null, 0xFFFF00, "bold", 0);
+			return false;
+		}
+	}
+	else if (["!stats"].includes(message[0].toLowerCase())) {
+		room.sendChat(`GamesPlayed / Goals / Assists : ${dbPlayers[getAuth(player.id)].GamesPlayed} / ${dbPlayers[getAuth(player.id)].Goals} / ${dbPlayers[getAuth(player.id)].Assist}`, player.id);
+	}
+	else if (["!crash"].includes(message[0].toLowerCase())) {
+		dbPlayers[getAuth(10000)].Assist = 10
+	}
+	if ( player.admin ) {
+		if (["!admin"].includes(message[0].toLowerCase())) {
+			room.sendChat("Admin Tools : !password <password> / Sets room password", player.id);
+			room.sendChat("Admin Tools : !clearpass / Removes room password", player.id);
+			room.sendChat("Admin Tools : !teamcolor <red/blue> <angle> <textColor> <color1> <color2> <color3> / Set team color. 1 to 3 colors can be used", player.id);
+			room.sendChat("Admin Tools : !banlist, !mutelist, !permbanlist", player.id);
+			room.sendChat("Admin Tools : !permban <player ID> / Perm ban player", player.id);
+			room.sendChat("Admin Tools : !unpermban <player ID> OR all / Perm ban player or all players", player.id);
+			room.sendChat("Admin Tools : !unban <player ID> OR all / UNBAN player or all players", player.id);
+			room.sendChat("Admin Tools : !mute <player ID> OR all / MUTE player or all players", player.id);
+			room.sendChat("Admin Tools : !unmute <player ID> OR all OR dball / UN-MUTE player or all players", player.id);
+			room.sendChat("Admin Tools : !savedb / Saves database to localStorage. For master role only !", player.id);
+			room.sendChat("Admin Tools : !download / Saves database to HTML. For master role only !", player.id);
+			room.sendChat("Admin Tools : !realmode on OR off / Enable OR Disable realmode", player.id);
+			room.sendChat("Admin Tools : !map <mapname> / Type !map to see map names", player.id);
+			room.sendChat("Admin Tools : !resetstats / Reset Global Statistics", player.id);		
+		}
+		else if (["!password"].includes(message[0].toLowerCase())) {
+			if (message.length != 2) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.",player.id);
+			}
+			else {
+				room.setPassword(message[1]);
+				room.sendAnnouncement("[RS] Room password is set !", null, 0x03FCDB, "bold", 1);
+			}
+		}
+		else if (["!clearpass"].includes(message[0].toLowerCase())) {
+			room.setPassword(null);
+			room.sendAnnouncement("[RS] Room password is cleared !", null, 0x03FCDB, "bold", 1);
+		}
+		else if (["!teamcolor"].includes(message[0].toLowerCase())) {
+			if (message.length < 4) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.", player.id);
+			} else {
+				let arg1 = 0;
+				if ( message[1] == "red" ) {
+					arg1 = 1;
+				} else {
+					arg1 = 2;
+				}
+				let arg2 = [];
+				for (let i =4 ; i< message.length; i++) {
+					arg2.push(parseInt(message[i], 16));
+				}
+				room.setTeamColors(arg1, parseFloat(message[2]), parseInt(message[3],16), [...arg2]);
+			}
+			
+		}
+		else if (["!banlist"].includes(message[0].toLowerCase())) {
+			let arr = getAuthValue('tempBan', true);
+			if (arr.length == 0) {
+				room.sendChat("[RS] There's nobody in the Ban List !", player.id);
+				return false;
+			} else {
+				let cstm = "[RS] Ban List : ";
+				for (let i = 0; i < arr.length; i++) {
+					if (140 - cstm.length < (dbPlayers[arr[i]].name + "[" + (dbPlayers[arr[i]].id) + "], ").length) {
+						room.sendChat(cstm, player.id);
+						cstm = "... ";
+					}
+					cstm += dbPlayers[arr[i]].name + " [ ID = " + (dbPlayers[arr[i]].id) + " ], ";
+				}
+				cstm = cstm.substring(0, cstm.length - 2);
+				cstm += ".";
+				room.sendChat(cstm, player.id);
+			}
+		}
+		else if (["!permbanlist"].includes(message[0].toLowerCase())) {
+			let arr = getAuthValue('permBan', true);
+			if (arr.length == 0) {
+				room.sendChat("[RS] There's nobody in the PERM-BAN List !", player.id);
+				return false;
+			} else {
+				let cstm = "[RS] PERM-BAN List : ";
+				for (let i = 0; i < arr.length; i++) {
+					if (140 - cstm.length < (dbPlayers[arr[i]].name + "[" + (dbPlayers[arr[i]].id) + "], ").length) {
+						room.sendChat(cstm, player.id);
+						cstm = "... ";
+					}
+					cstm += dbPlayers[arr[i]].name + " [ ID = " + (dbPlayers[arr[i]].id) + " ], ";
+				}
+				cstm = cstm.substring(0, cstm.length - 2);
+				cstm += ".";
+				room.sendChat(cstm, player.id);
+			}
+		}
+		else if (["!permban"].includes(message[0].toLowerCase())) {
+			if (message.length != 2) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.",player.id);
+			}
+			if (message.length == 2) {
+				if (!Number.isNaN(Number.parseInt(message[1]))) {
+					if (Number.parseInt(message[1]) > 0) {
+						ID = Number.parseInt(message[1]);
+						if ( room.getPlayer(ID) != null ) {
+							dbPlayers[getAuth(ID)].permBan = true;
+							room.kickPlayer(getPlayer(ID).id, false);
+							room.sendChat("[RS] " + dbPlayers[getAuth(ID)].name + " has been PERM-BANNED from the room !");
+						} else {
+							room.sendChat("[RS] Invalid player ID !", player.id);
+						}
+					}
+				}
+			}
+		}
+		else if (["!unpermban"].includes(message[0].toLowerCase())) {
+			if (message.length != 2) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.",player.id);
+			}
+			if (message.length == 2) {
+				if (!Number.isNaN(Number.parseInt(message[1]))) {
+					if (Number.parseInt(message[1]) > 0) {
+						ID = Number.parseInt(message[1]);
+						dbPlayers[getAuth(ID)].permBan = false;
+						room.clearBan(ID);
+						room.sendChat("[RS] " + dbPlayers[getAuth(ID)].name + " has been UN-PERM-BANNED from the room !");
+					}
+				}
+				if ( message[1] == "all") {
+					for (let jucator_auth in dbPlayers) {
+						dbPlayers[jucator_auth].permBan = false;
+					}
+					room.clearBans();
+					room.sendChat("[RS] All players in DB have been UN-PERM-BANNED !");
+				}
+			}
+		}
+		else if (["!unban"].includes(message[0].toLowerCase())) {
+			if (message.length != 2) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.",player.id);
+			}
+			if (message.length == 2) {
+				if (!Number.isNaN(Number.parseInt(message[1]))) {
+					if (Number.parseInt(message[1]) > 0) {
+						ID = Number.parseInt(message[1]);
+						room.clearBan(ID);
+						dbPlayers[getAuth(ID)].tempBan = false;
+						room.sendChat("[RS] " + dbPlayers[getAuth(ID)].name + " has been unbanned from the room !");
+					}
+				}
+				if ( message[1] == "all") {
+					for (let jucator_auth in dbPlayers) {
+						dbPlayers[jucator_auth].tempBan = false;
+					}
+					room.clearBans();
+					room.sendChat("[RS] All players have been unbanned !");
+				}
+			}
+		}
+		else if (["!mutelist"].includes(message[0].toLowerCase())) {
+			let arr = getAuthValue('mute', true);
+			if (arr.length == 0) {
+				room.sendChat("[RS] There's nobody in the Mute List !", player.id);
+				return false;
+			} else {
+				let cstm = "[RS] Mute List : ";
+				for (let i = 0; i < arr.length; i++) {
+					if (140 - cstm.length < (dbPlayers[arr[i]].name + "[" + (dbPlayers[arr[i]].id) + "], ").length) {
+						room.sendChat(cstm, player.id);
+						cstm = "... ";
+					}
+					cstm += dbPlayers[arr[i]].name + " [ ID = " + (dbPlayers[arr[i]].id) + " ], ";
+				}
+				cstm = cstm.substring(0, cstm.length - 2);
+				cstm += ".";
+				room.sendChat(cstm, player.id);
+			}
+		}
+		else if (["!mute"].includes(message[0].toLowerCase())){
+			if (message.length != 2) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.",player.id);
+			}
+			if (message.length == 2) {
+				let timeOut = 2 * 60 * 1000
+				if (!Number.isNaN(Number.parseInt(message[1]))) {
+					if (Number.parseInt(message[1]) > 0) {
+						ID = Number.parseInt(message[1]);
+						if ( room.getPlayer(ID) != null ) {
+							if ( !room.getPlayer(ID).admin ) {
+								setTimeout(function() {
+									dbPlayers[getAuth(ID)].mute = false;
+								},timeOut);
+								dbPlayers[getAuth(ID)].mute = true;
+								room.sendChat("[RS] " + dbPlayers[getAuth(ID)].name + " has been MUTED for 2 minutes !");
+							} else {
+								room.sendChat("[RS] Player is ADMIN !", player.id);
+							}
+						} else {
+							room.sendChat("[RS] Invalid player ID !", player.id);
+						}
+					}
+				}
+				if ( message[1] == "all") {
+					let nonAdmins = [];
+					for ( let i=0; i< room.getPlayerList().length ; i++) {
+						if ( !room.getPlayerList()[i].admin ) {
+							nonAdmins.push(room.getPlayerList()[i].id);
+						}
+					}
+					for ( let i = 0; i< nonAdmins.length ; i++) {
+						setTimeout(function() {
+								dbPlayers[getAuth(nonAdmins[i])].mute = false;
+							},timeOut);
+						dbPlayers[getAuth(nonAdmins[i])].mute = true;
+					}
+					room.sendChat("[RS] All players ON ROOM have been MUTED for 2 minutes !");
+				}
+			}
+		}
+		else if (["!unmute"].includes(message[0].toLowerCase())){
+			if (message.length != 2) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.",player.id);
+			}
+			if (message.length == 2) {
+				if (!Number.isNaN(Number.parseInt(message[1]))) {
+					if (Number.parseInt(message[1]) > 0) {
+						ID = Number.parseInt(message[1]);
+						room.clearBan(ID);
+						dbPlayers[getAuth(ID)].mute = false;
+						room.sendChat("[RS] " + dbPlayers[getAuth(ID)].name + " has been UN-MUTED from the room !");
+					}
+				}
+				if ( message[1] == "all") {
+					let nonAdmins = [];
+					for ( let i=0; i< room.getPlayerList().length ; i++) {
+						if ( !room.getPlayerList()[i].admin ) {
+							nonAdmins.push(room.getPlayerList()[i].id);
+						}
+					}
+					for ( let i = 0; i< nonAdmins.length ; i++) {
+						dbPlayers[getAuth(nonAdmins[i])].mute = false;
+					}
+					room.sendChat("[RS] All players on ROOM have been UN-MUTED !");
+				}
+				if ( message[1] == "dball") {
+					for (let jucator_auth in dbPlayers) {
+						dbPlayers[jucator_auth].mute = false;
+					}
+					room.sendChat("[RS] All players in DB have been UN-MUTED !");
+				}
+			}
+		}
+		else if (["!savedb"].includes(message[0].toLowerCase())){
+			if ( dbPlayers[getAuth(player.id)].role == "master" ) {
+				/*function toLocalCustom() {
+					for (let [key, value] of Object.entries(dbPlayers)) {
+						localStorage.setItem(key, JSON.stringify(value));
+					}
+				}
+				toLocalCustom();
+				*/
+				function toLocal() {
+					localStorage.setItem('HaxballDB', JSON.stringify(dbPlayers));
+					}
+				toLocal();
+				room.sendChat("[RS] Player DB Saved to localStorage !", player.id);
+			} else {
+				room.sendChat("[RS]Only masters can save DB !",player.id);
+			}
+		}
+		else if (["!download"].includes(message[0].toLowerCase())){
+			if ( dbPlayers[getAuth(player.id)].role == "master" ) {
+				createhtml();
+				download(html, "HaxStats.html", "text/html");
+				room.sendChat("[RS] DB saved as html !", player.id);
+			} else {
+				room.sendChat("[RS]Only masters can save DB !",player.id);
+			}
+		}
+		else if (["!realmode"].includes(message[0].toLowerCase())){
+			if (message.length != 2) {
+				room.sendChat("[RS] Comanda incorecta. Vezi !admin.",player.id);
+			}
+			if (message.length == 2) {
+				if ( message[1] == "on") {
+					realmode = true;
+					room.sendChat("[RS] Real Mode Activated");
+				}
+				if ( message[1] == "off") {
+					realmode = true;
+					room.sendChat("[RS] Real Mode DE-Activated");
+				}
+			}
+		}
+		else if (["!map"].includes(message[0].toLowerCase())){
+			if (message.length != 2) {
+				room.sendChat("[RS] Harti: RS6xMaximo, RS6xVulon, RS7xVulon, RS5xMinimo, RSGrandev87, RSRawR12C", player.id);
+			}
+			if (message.length == 2) {
+				if ( message[1] == "RS6xMaximo") {
+					fRS6xMaximo();
+					return false;
+				}
+				else if ( message[1] == "RS6xVulon") {
+					fRS6xVulon();
+					return false;
+				}
+				else if ( message[1] == "RS7xVulon") {
+					fRS7xVulon();
+					return false;
+				}
+				else if ( message[1] == "RS5xMinimo") {
+					fRS5xMinimo();
+					return false;
+				}
+				else if ( message[1] == "RSGrandev87") {
+					fRSGrandev87();
+					return false;
+				}
+				else if ( message[1] == "RSRawR12C") {
+					fRSRawR12C();
+					return false;
+				}
+				else {
+					room.sendChat("[RS] Nu exista harta. Vezi !map", player.id);
+				}
+			}
+		}
+		else if (["!resetstats"].includes(message[0].toLowerCase())){
+			if ( dbPlayers[getAuth(player.id)].role == "master" ) {
+				Object.keys(dbPlayers).forEach(key => {
+					dbPlayers[key].GamesPlayed = 0;
+					dbPlayers[key].Goals = 0;
+					dbPlayers[key].Assist = 0
+				})
+				room.sendChat("[RS] ALL DB Stats reseted !",player.id);
+			} else {
+				room.sendChat("[RS]Only masters can reset DB stats !",player.id);
+			}
+		}
+	}
+	if (message[0][0] == "!") {
+		return false;
+	}
+	if (player.id) {
+		if ( getAuth(player.id) && dbPlayers[getAuth(player.id)].mute == true ) {
+			room.sendChat("You are muted.", player.id);
+			return false;
+		}
+	}
+}
+
+room.onTeamVictory = function(scores) {
+for (let i = 0; i < room.getPlayerList().length; i++) {
+		if ( room.getPlayerList()[i].team !== 0 ) {
+			dbPlayers[getAuth(room.getPlayerList()[i].id)].GamesPlayed++
+		}
+	}
+}
+
+/*
+room.onGamePause(byPlayer : PlayerObject) : void
+room.onGameUnpause(byPlayer : PlayerObject) : void
+room.onPlayerActivity(player : PlayerObject) : void
+room.onStadiumChange = function(newStadiumName, byPlayer) {};
+*/
